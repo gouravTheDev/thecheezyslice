@@ -9,5 +9,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('/css/cssf.css') }}" />
     <title>The Chezzy Slice</title>
+    <style>
+        body {
+            width: 100%;
+            height: 100%;
+            margin: 0px;
+            padding: 0px;
+            overflow-x: hidden;
+        }
+    </style>
 </head>
+
 <body>
