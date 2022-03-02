@@ -108,11 +108,24 @@
 </div>
 <div class="untree_co-section pt-4" style="background: #FDFDFA;">
     <div class="container">
-        
+        <div class="row">
+            <div class="col-12 text-center mb-4">
+                <span class="subtitle">About Us</span>
+                <!-- <h3><strong class="text-primary">The Cheezy Slice</strong></h3> -->
+            </div>
+            <div class="col-md-6 col-sm-12" data-aos="fade-up" data-aos-delay="100">
+                <img src="images/pizza/pizza2.jpg" style="height: 100%; width: 100%;" alt="">
+            </div>
+            <div class="col-md-6 col-sm-12" data-aos="fade-up" data-aos-delay="100">
+                <h3><strong class="text-primary">The Cheezy Slice</strong></h3>
+                <p class="my-4" style="font-size: 1.1em;">No matter what the situation, pizza always helps. Especially a pizza that gives you the freedom to choose your toppings - from paneer, crisp capsicum, onion, grilled mushroom, golden corn, black olives, fresh tomato, red paprika, jalapeno, paneer tikka and extra cheese to non-veg toppings such as pepper barbeque chicken pizza.</p>
+                <p class="my-4" style="font-size: 1.1em;">People love us online. Order your favourites from <span class="font-weight-bold">The Cheezy Slice</span> Now!</p>
+            </div>
+        </div>
     </div>
 </div>
-<div class="untree_co-section bg-img fixed overlay" style="background-image: url('images/hero_bg_2.jpg');">
-    <div class="container">
+<div class="untree_co-section bg-img fixed overlay" style="background-image: url('images/pizza/pizza1.jpg'); padding-top: 50px;">
+    <div class="container-fluid">
         <div class="row">
             <!-- <div class="col-lg-5 mb-5 mb-lg-0 mr-auto testimonial-wrap" data-aos="fade-up" data-aos-delay="0">
                 <span class="subtitle">Testimonials</span>
@@ -156,21 +169,27 @@
                     </div>
                 </div>
             </div> -->
-            <div class="col-lg-12 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-lg-12 mt-1 mt-lg-0 text-center" data-aos="fade-up" data-aos-delay="100">
                 <span class="subtitle">Galleries</span>
                 <h2 class="mb-5">Photo <strong class="text-primary">Galleries</strong></h2>
                 <div class="row">
-                    <div class="col-6 mb-4">
-                        <a href="images/img_1.jpg" data-fancybox="gallery" class="gal"><img src="images/img_1.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="2099361916" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+                    <div class="col-4 mb-4">
+                        <a href="images/img_1.jpg" data-fancybox="gallery" class="gal"><img src="images/img_1.jpg" alt="Image" class="img-fluid"></a>
                     </div>
-                    <div class="col-6 mb-4">
+                    <div class="col-4 mb-4">
                         <a href="images/img_2.jpg" data-fancybox="gallery" class="gal"><img src="images/img_2.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="2393861837" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
                     </div>
-                    <div class="col-6 mb-4">
+                    <div class="col-4 mb-4">
                         <a href="images/img_1_b.jpg" data-fancybox="gallery" class="gal"><img src="images/img_1_b.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="3364204467" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
                     </div>
-                    <div class="col-6 mb-4">
-                        <a href="images/img_2_b.jpg" data-fancybox="gallery" class="gal"><img src="images/img_2_b.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="2100841356" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+                    <div class="col-4 mb-4">
+                        <a href="images/img_2_b.jpg" data-fancybox="gallery" class="gal"><img src="images/img_2_b.jpg" alt="Image" class="img-fluid"></a>
+                    </div>
+                    <div class="col-4 mb-4">
+                        <a href="images/pizza/pizza4.jpg" data-fancybox="gallery" class="gal"><img src="images/pizza/pizza4.jpg" alt="Image" class="img-fluid"></a>
+                    </div>
+                    <div class="col-4 mb-4">
+                        <a href="images/pizza/pizza3.jpg" data-fancybox="gallery" class="gal"><img src="images/pizza/pizza3.jpg" alt="Image" class="img-fluid"></a>
                     </div>
 
                 </div>
@@ -215,18 +234,6 @@
                         <li>Separated they live</li>
                     </ul>
                 </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div class="untree_co-section bg-img py-5 fixed overlay" style="background-image: url('images/hero_bg_2.jpg');">
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-7 text-center">
-                <span class="subtitle">Book a table</span>
-                <h3>Book A Table Now</h3>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
-                <p class="mb-0"><a href="#" class="btn btn-primary">Book a table</a></p>
             </div>
         </div>
     </div>
