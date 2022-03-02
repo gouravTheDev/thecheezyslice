@@ -9,12 +9,9 @@
                     <div class="widget">
                         <h3>Connect</h3>
                         <ul class="list-unstyled social">
-                            <li><a href="#"><span class="icon-instagram"></span></a></li>
-                            <li><a href="#"><span class="icon-twitter"></span></a></li>
-                            <li><a href="#"><span class="icon-facebook"></span></a></li>
-                            <li><a href="#"><span class="icon-linkedin"></span></a></li>
-                            <li><a href="#"><span class="icon-pinterest"></span></a></li>
-                            <li><a href="#"><span class="icon-dribbble"></span></a></li>
+                            <li><a href="#"><span class="fa fa-facebook" style="color: blue; font-size: 1.3em;"></span></a></li>
+                            <li><a href="#"><span class="fa fa-instagram" style="color: #F51976; font-size: 1.3em;"></span></a></li>
+                            <li><a href="#"><span class="fa fa-twitter" style="color: #12B0FF; font-size: 1.3em;"></span></a></li>
                         </ul>
                     </div>
                 </div>
@@ -48,7 +45,7 @@
                         <ul class="list-unstyled links mb-4">
                             <li><a href="tel://11234567890">+1(123)-456-7890</a></li>
                             <li><a href="tel://11234567890">+1(123)-456-7890</a></li>
-                            <li><a href="/cdn-cgi/l/email-protection#472e292128072a3e23282a262e296924282a"><span class="__cf_email__" data-cfemail="ef86818980af82968b80828e8681c18c8082">connect@email.com</span></a></li>
+                            <li><a href="/cdn-cgi/l/email-protection#472e292128072a3e23282a262e296924282a"><span class="__cf_email__" data-cfemail="ef86818980af82968b80828e8681c18c8082">contact@thechezzyslice.com</span></a></li>
                         </ul>
                     </div>
                 </div>

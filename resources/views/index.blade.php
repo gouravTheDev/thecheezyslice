@@ -32,11 +32,11 @@
         <div class="row align-items-center justify-content-center">
             <div class="col-12">
                 <div class="row justify-content-center">
-                    <div class="col-lg-6 text-center">
+                    <div class="col-lg-7 text-center">
                         <span class="caption" data-aos="fade-up" data-aos-delay="0">Enjoy Your Healthy Delicious Meal</span>
-                        <h1 class="mb-4 heading text-white" data-aos="fade-up" data-aos-delay="100">Treat Yourself</h1>
+                        <h1 class="mb-4 heading text-white" data-aos="fade-up" data-aos-delay="100">Pizza to fill your soul</h1>
                         <div class="mb-4 text-white desc" data-aos="fade-up" data-aos-delay="200">
-                            Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                           We are baking pizzas sp good they melt in your mouth! <br> Book online or call 8621071620.</p>
                         </div>
                         <p class="mb-0" data-aos="fade-up" data-aos-delay="300"><a href="#" class="btn btn-primary">Explore now</a></p>
                     </div>
@@ -197,42 +197,165 @@
         </div>
     </div>
 </div>
-<div class="untree_co-section">
+<div class="untree_co-section" style="background: #FDFDFA;">
     <div class="container">
-        <div class="row mb-4 justify-content-center">
-            <div class="col-md-7 text-center mb-5" data-aos="fade-up" data-aos-delay="0">
-                <span class="subtitle">Events</span>
-                <h2>Enjoy <strong class="text-primary">Our Events</strong></h2>
-                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+        <div class="row">
+            <div class="col-lg-3 text-center text-lg-left" data-aos="fade-up" data-aos-delay="0">
+                <div class="heading mb-4">
+                    <span class="subtitle">Our Menu</span>
+                    <h3>Popular <strong class="text-primary">Foods</strong></h3>
+                </div>
+                <ul class="list-unstyled untree_co-tab-nav js-custom-dots text-center">
+                    <li class="active text-center"><a href="#" class="d-flex align-items-center">
+                           <span class="text-center">Pizza</span>
+                        </a></li>
+                    <li><a href="#" class="d-flex align-items-center"> <span>Burger</span></a></li>
+                    <li><a href="#" class="d-flex align-items-center"> <span>Desert</span></a></li>
+                    <li><a href="#" class="d-flex align-items-center">  <span>Drinks</span></a></li>
+                </ul>
             </div>
-        </div>
-        <div class="events-slider owl-carousel" data-aos="fade-up" data-aos-delay="100">
-            <div class="row align-items-center justify-content-between">
-                <div class="col-lg-6">
-                    <img src="images/party_1.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="4286113031" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-                </div>
-                <div class="col-lg-5">
-                    <h3 class="mb-4">Birthday Party</h3>
-                    <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                    <ul class="list-unstyled ul-check">
-                        <li>Away behind the word</li>
-                        <li>Bookmarksgrove right at the coast</li>
-                        <li>Separated they live</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="row align-items-center justify-content-between">
-                <div class="col-lg-6 order-lg-2">
-                    <img src="images/party_2.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="285645656" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-                </div>
-                <div class="col-lg-5">
-                    <h3 class="mb-4">Guest Chef Nihgt Party</h3>
-                    <p class="mb-4">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                    <ul class="list-unstyled ul-check">
-                        <li>Away behind the word</li>
-                        <li>Bookmarksgrove right at the coast</li>
-                        <li>Separated they live</li>
-                    </ul>
+            <div class="col-lg-8 ml-auto" data-aos="fade-up" data-aos-delay="100">
+                <div class="owl-single no-dots owl-carousel">
+                    <div class="item">
+                        <div class="row align-items-center mb-4">
+                            <div class="col-6">
+                                <h2 class="text-black">Pizza</h2>
+                            </div>
+                            <div class="col-6 text-right number">1/4</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6 col-lg-6 mb-4">
+                                <div class="product">
+                                    <a href="#" class="thumbnail"><img src="images/img_1.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="2099361916" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+                                    <h3><a href="#">Italian Sauce Mushroom</a></h3>
+                                </div>
+                            </div>
+                            <div class="col-6 col-lg-6 mb-4">
+                                <div class="product">
+                                    <a href="#" class="thumbnail"><img src="images/img_2.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="2393861837" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+                                    <h3><a href="#">Salted Fried Chicken</a></h3>
+                                </div>
+                            </div>
+                            <div class="col-6 col-lg-6 mb-0">
+                                <div class="product">
+                                    <a href="#" class="thumbnail"><img src="images/img_3.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="2688361758" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+                                    <h3><a href="#">Fried Potato w/ Garlic</a></h3>
+                                </div>
+                            </div>
+                            <div class="col-6 col-lg-6 mb-0">
+                                <div class="product">
+                                    <a href="#" class="thumbnail"><img src="images/img_4.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="2982861679" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+                                    <h3><a href="#">Shrimp and olive</a></h3>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="item">
+                        <div class="row align-items-center mb-4">
+                            <div class="col-6">
+                                <h2 class="text-black">Burger</h2>
+                            </div>
+                            <div class="col-6 text-right number">2/4</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6 col-lg-6 mb-4">
+                                <div class="product">
+                                    <a href="#" class="thumbnail"><img src="images/img_1_b.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="3364204467" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+                                    <h3><a href="#">Italian Sauce Mushroom</a></h3>
+                                </div>
+                            </div>
+                            <div class="col-6 col-lg-6 mb-4">
+                                <div class="product">
+                                    <a href="#" class="thumbnail"><img src="images/img_2_b.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="2100841356" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+                                    <h3><a href="#">Salted Fried Chicken</a></h3>
+                                </div>
+                            </div>
+                            <div class="col-6 col-lg-6 mb-0">
+                                <div class="product">
+                                    <a href="#" class="thumbnail"><img src="images/img_3_b.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="837478245" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+                                    <h3><a href="#">Fried Potato w/ Garlic</a></h3>
+                                </div>
+                            </div>
+                            <div class="col-6 col-lg-6 mb-0">
+                                <div class="product">
+                                    <a href="#" class="thumbnail"><img src="images/img_4_b.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="3869082430" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+                                    <h3><a href="#">Shrimp and olive</a></h3>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="item">
+                        <div class="row align-items-center mb-4">
+                            <div class="col-6">
+                                <h2 class="text-black">Desert</h2>
+                            </div>
+                            <div class="col-6 text-right number">3/4</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6 col-lg-6 mb-4">
+                                <div class="product">
+                                    <a href="#" class="thumbnail"><img src="images/img_1.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="2099361916" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+                                    <h3><a href="#">Italian Sauce Mushroom</a></h3>
+                                </div>
+                            </div>
+                            <div class="col-6 col-lg-6 mb-4">
+                                <div class="product">
+                                    <a href="#" class="thumbnail"><img src="images/img_2.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="2393861837" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+                                    <h3><a href="#">Salted Fried Chicken</a></h3>
+                                </div>
+                            </div>
+                            <div class="col-6 col-lg-6 mb-0">
+                                <div class="product">
+                                    <a href="#" class="thumbnail"><img src="images/img_1.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="2099361916" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+                                    <h3><a href="#">Fried Potato w/ Garlic</a></h3>
+                                </div>
+                            </div>
+                            <div class="col-6 col-lg-6 mb-0">
+                                <div class="product">
+                                    <a href="#" class="thumbnail"><img src="images/img_2.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="2393861837" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+                                    <h3><a href="#">Shrimp and olive</a></h3>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="item">
+                        <div class="row align-items-center mb-4">
+                            <div class="col-6">
+                                <h2 class="text-black">Drinks</h2>
+                            </div>
+                            <div class="col-6 text-right number">4/4</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6 col-lg-6 mb-4">
+                                <div class="product">
+                                    <a href="#" class="thumbnail"><img src="images/img_1_d.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="3953204309" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+                                    <h3><a href="#">Italian Sauce Mushroom</a></h3>
+                                </div>
+                            </div>
+                            <div class="col-6 col-lg-6 mb-4">
+                                <div class="product">
+                                    <a href="#" class="thumbnail"><img src="images/img_2_d.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="2689841198" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+                                    <h3><a href="#">Salted Fried Chicken</a></h3>
+                                </div>
+                            </div>
+                            <div class="col-6 col-lg-6 mb-0">
+                                <div class="product">
+                                    <a href="#" class="thumbnail"><img src="images/img_3_d.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="1426478087" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+                                    <h3><a href="#">Fried Potato w/ Garlic</a></h3>
+                                </div>
+                            </div>
+                            <div class="col-6 col-lg-6 mb-0">
+                                <div class="product">
+                                    <a href="#" class="thumbnail"><img src="images/img_4_d.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="163114976" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+                                    <h3><a href="#">Shrimp and olive</a></h3>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
             </div>
         </div>

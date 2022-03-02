@@ -10134,7 +10134,7 @@ h4,
     position: absolute;
     width: 100%;
     z-index: 9;
-    background: rgb(247, 177, 73);
+    background: rgb(255, 247, 234);
 }
 .site-nav a {
     position: relative;
@@ -10162,11 +10162,11 @@ h4,
     margin-top: 2px;
     display: inline-block;
     text-decoration: none !important;
-    color: #fff;
+    color: rgb(232, 140, 20);
     position: relative;
 }
 .site-nav .site-navigation .site-menu > li > a:hover {
-    color: #fff;
+    color: rgb(243, 188, 106);
 }
 .site-nav .site-navigation .site-menu > li.active > a {
     color: #fff;
