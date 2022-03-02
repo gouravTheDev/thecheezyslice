@@ -325,3 +325,58 @@
         </div>
     </div>
 </div>
+
+
+
+
+
+<div class="text-center mb-5" data-aos="fade-up" data-aos-delay="0">
+            <span class="subtitle">Choose Desserts</span>
+            <h3>Popular <strong class="text-primary">Desserts</strong></h3>
+        </div>
+        <div class="row align-items-stretch">
+            <div class="col-6 col-lg-3 mb-4 mb-lg-0" data-aos="fade-up" data-aos-delay="0">
+                <a href="#" class="d-flex dess-item align-items-center h-100">
+                    <figure class="mr-3">
+                        <img src="images/1x/dessert_1.png" alt="Image" class="img-fluid" data-pagespeed-url-hash="1845296955" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                    </figure>
+                    <div>
+                        <h3>Cherry Muffin</h3>
+                        <span class="price">$20</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-6 col-lg-3 mb-4 mb-lg-0" data-aos="fade-up" data-aos-delay="100">
+                <a href="#" class="d-flex dess-item align-items-center h-100">
+                    <figure class="mr-3">
+                        <img src="images/1x/dessert_2.png" alt="Image" class="img-fluid" data-pagespeed-url-hash="2139796876" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                    </figure>
+                    <div>
+                        <h3>Rose Muffin</h3>
+                        <span class="price">$20</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-6 col-lg-3 mb-4 mb-lg-0" data-aos="fade-up" data-aos-delay="200">
+                <a href="#" class="d-flex dess-item align-items-center h-100">
+                    <figure class="mr-3">
+                        <img src="images/1x/dessert_5.png" alt="Image" class="img-fluid" data-pagespeed-url-hash="3023296639" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                    </figure>
+                    <div>
+                        <h3>Sweet Donut</h3>
+                        <span class="price">$20</span>
+                    </div>
+                </a>
+            </div>
+            <div class="col-6 col-lg-3 mb-4 mb-lg-0" data-aos="fade-up" data-aos-delay="300">
+                <a href="#" class="d-flex dess-item align-items-center h-100">
+                    <figure class="mr-3">
+                        <img src="images/1x/dessert_4.png" alt="Image" class="img-fluid" data-pagespeed-url-hash="2728796718" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                    </figure>
+                    <div>
+                        <h3>Choco Cake</h3>
+                        <span class="price">$20</span>
+                    </div>
+                </a>
+            </div>
+        </div>

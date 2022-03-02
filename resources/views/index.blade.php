@@ -16,7 +16,8 @@
                 <li class="active"><a href="/">Home</a></li>
                 <li><a href="#">About Us</a></li>
                 <li><a href="#">Gallery</a></li>
-                <li><a href="#">Items</a></li>
+                <li><a href="#">Ite
+                        ms</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
             <!-- <a href="#" class="btn-book btn btn-primary btn-sm menu-absolute">Book a table</a> -->
@@ -60,75 +61,54 @@
     </ul>
 </div>
 <div class="untree_co-section mt-0 pt-0" style="background: #fff;">
-   <div class="container-fluid">
-       <div class="row">
-           <div class="col-md-3 col-sm-6">
-                hello
-           </div>
-           <div class="col-md-3 col-sm-6">
-hello
-           </div>
-           <div class="col-md-3 col-sm-6">
-        hello
-           </div>
-           <div class="col-md-3 col-sm-6">
-hello
-           </div>
-       </div>
-   </div>
+    <div class="container-fluid">
+        <div class="row pt-3">
+            <div class="col-md-3 col-sm-6">
+                <div class="row pt-4 pl-4">
+                    <div class="col-4">
+                        <img src="images/logos/medal.png" alt="" style="height: 100px;">
+                    </div>
+                    <div class="col-8 pt-3">
+                        <h5>Quality food at reasonable Price</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="row pt-4 pl-4">
+                    <div class="col-4">
+                        <img src="images/logos/pizza.png" alt="" style="height: 100px;">
+                    </div>
+                    <div class="col-8 pt-3">
+                        <h5> Crispy, Tasty and Super Delicious</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="row pt-4 pl-4">
+                    <div class="col-4">
+                        <img src="images/logos/rating.png" alt="" style="height: 100px;">
+                    </div>
+                    <div class="col-8 pt-3">
+                        <h5> People love us online! </h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="row pt-4 pl-4">
+                    <div class="col-4">
+                        <img src="images/logos/clean.png" alt="" style="height: 100px;">
+                    </div>
+                    <div class="col-8 pt-3">
+                        <h5> Cleanliness and Quality is our top priority</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
-<div class="untree_co-section pt-0">
+<div class="untree_co-section pt-4" style="background: #FDFDFA;">
     <div class="container">
-        <div class="text-center mb-5" data-aos="fade-up" data-aos-delay="0">
-            <span class="subtitle">Choose Desserts</span>
-            <h3>Popular <strong class="text-primary">Desserts</strong></h3>
-        </div>
-        <div class="row align-items-stretch">
-            <div class="col-6 col-lg-3 mb-4 mb-lg-0" data-aos="fade-up" data-aos-delay="0">
-                <a href="#" class="d-flex dess-item align-items-center h-100">
-                    <figure class="mr-3">
-                        <img src="images/1x/dessert_1.png" alt="Image" class="img-fluid" data-pagespeed-url-hash="1845296955" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-                    </figure>
-                    <div>
-                        <h3>Cherry Muffin</h3>
-                        <span class="price">$20</span>
-                    </div>
-                </a>
-            </div>
-            <div class="col-6 col-lg-3 mb-4 mb-lg-0" data-aos="fade-up" data-aos-delay="100">
-                <a href="#" class="d-flex dess-item align-items-center h-100">
-                    <figure class="mr-3">
-                        <img src="images/1x/dessert_2.png" alt="Image" class="img-fluid" data-pagespeed-url-hash="2139796876" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-                    </figure>
-                    <div>
-                        <h3>Rose Muffin</h3>
-                        <span class="price">$20</span>
-                    </div>
-                </a>
-            </div>
-            <div class="col-6 col-lg-3 mb-4 mb-lg-0" data-aos="fade-up" data-aos-delay="200">
-                <a href="#" class="d-flex dess-item align-items-center h-100">
-                    <figure class="mr-3">
-                        <img src="images/1x/dessert_5.png" alt="Image" class="img-fluid" data-pagespeed-url-hash="3023296639" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-                    </figure>
-                    <div>
-                        <h3>Sweet Donut</h3>
-                        <span class="price">$20</span>
-                    </div>
-                </a>
-            </div>
-            <div class="col-6 col-lg-3 mb-4 mb-lg-0" data-aos="fade-up" data-aos-delay="300">
-                <a href="#" class="d-flex dess-item align-items-center h-100">
-                    <figure class="mr-3">
-                        <img src="images/1x/dessert_4.png" alt="Image" class="img-fluid" data-pagespeed-url-hash="2728796718" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
-                    </figure>
-                    <div>
-                        <h3>Choco Cake</h3>
-                        <span class="price">$20</span>
-                    </div>
-                </a>
-            </div>
-        </div>
+        
     </div>
 </div>
 <div class="untree_co-section bg-img fixed overlay" style="background-image: url('images/hero_bg_2.jpg');">
