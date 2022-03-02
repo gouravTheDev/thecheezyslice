@@ -11,13 +11,12 @@
 <nav class="site-nav mb-5">
     <div class="container-fluid">
         <div class="site-navigation text-right pt-0">
-            <a href="/" class="logo menu-absolute m-0"><img src="images/logo.png" style="height: 60px" alt=""></a>
+            <a href="/" class="logo menu-absolute m-0"><img src="images/logo.png" class="logo-image" alt=""></a>
             <ul class="js-clone-nav d-none d-lg-inline-block site-menu">
                 <li class="active"><a href="/">Home</a></li>
                 <li><a href="#">About Us</a></li>
                 <li><a href="#">Gallery</a></li>
-                <li><a href="#">Ite
-                        ms</a></li>
+                <li><a href="#">Menu</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
             <!-- <a href="#" class="btn-book btn btn-primary btn-sm menu-absolute">Book a table</a> -->
@@ -34,9 +33,9 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-7 text-center">
                         <span class="caption" data-aos="fade-up" data-aos-delay="0">Enjoy Your Healthy Delicious Meal</span>
-                        <h1 class="mb-4 heading text-white" data-aos="fade-up" data-aos-delay="100">Pizza to fill your soul</h1>
+                        <h1 class="mb-4 heading text-white" data-aos="fade-up" data-aos-delay="100" style="font-family: 'Balsamiq Sans', cursive;">Pizza to fill your soul</h1>
                         <div class="mb-4 text-white desc" data-aos="fade-up" data-aos-delay="200">
-                           We are baking pizzas sp good they melt in your mouth! <br> Book online or call 8621071620.</p>
+                            We are baking pizzas sp good they melt in your mouth! <br> Book online or call 8621071620.</p>
                         </div>
                         <p class="mb-0" data-aos="fade-up" data-aos-delay="300"><a href="#" class="btn btn-primary">Explore now</a></p>
                     </div>
@@ -116,7 +115,7 @@
             <div class="col-md-6 col-sm-12" data-aos="fade-up" data-aos-delay="100">
                 <img src="images/pizza/pizza2.jpg" style="height: 100%; width: 100%;" alt="">
             </div>
-            <div class="col-md-6 col-sm-12" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-md-6 col-sm-12 pt-3" data-aos="fade-up" data-aos-delay="100">
                 <h3><strong class="text-primary">The Cheezy Slice</strong></h3>
                 <p class="my-4" style="font-size: 1.1em;">No matter what the situation, pizza always helps. Especially a pizza that gives you the freedom to choose your toppings - from paneer, crisp capsicum, onion, grilled mushroom, golden corn, black olives, fresh tomato, red paprika, jalapeno, paneer tikka and extra cheese to non-veg toppings such as pepper barbeque chicken pizza.</p>
                 <p class="my-4" style="font-size: 1.1em;">People love us online. Order your favourites from <span class="font-weight-bold">The Cheezy Slice</span> Now!</p>
@@ -134,7 +133,7 @@
                     <div class="item">
                         <blockquote class="block-testimonial">
                             <div class="author">
-                                <img src="images/person_1.jpg" alt="Free template by TemplateUX" data-pagespeed-url-hash="2281625846" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                                <img src="images/person_1.jpg" alt="Free template by TemplateUX" data-pagespeed-url-hash="2281625846">
                                 <h3>John Doe</h3>
                                 <p class="position mb-5">CEO, Founder</p>
                             </div>
@@ -146,7 +145,7 @@
                     <div class="item">
                         <blockquote class="block-testimonial">
                             <div class="author">
-                                <img src="images/person_2.jpg" alt="Free template by TemplateUX" data-pagespeed-url-hash="2576125767" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                                <img src="images/person_2.jpg" alt="Free template by TemplateUX" data-pagespeed-url-hash="2576125767">
                                 <h3>James Woodland</h3>
                                 <p class="position mb-5">Designer at Facebook</p>
                             </div>
@@ -158,7 +157,7 @@
                     <div class="item">
                         <blockquote class="block-testimonial">
                             <div class="author">
-                                <img src="images/person_3.jpg" alt="Free template by TemplateUX" data-pagespeed-url-hash="2870625688" onload="pagespeed.CriticalImages.checkImageForCriticality(this);">
+                                <img src="images/person_3.jpg" alt="Free template by TemplateUX" data-pagespeed-url-hash="2870625688">
                                 <h3>Rob Smith</h3>
                                 <p class="position mb-5">Product Designer at Twitter</p>
                             </div>
@@ -173,22 +172,22 @@
                 <span class="subtitle">Galleries</span>
                 <h2 class="mb-5">Photo <strong class="text-primary">Galleries</strong></h2>
                 <div class="row">
-                    <div class="col-4 mb-4">
+                    <div class="col-md-4 col-sm-12 mb-4">
                         <a href="images/img_1.jpg" data-fancybox="gallery" class="gal"><img src="images/img_1.jpg" alt="Image" class="img-fluid"></a>
                     </div>
-                    <div class="col-4 mb-4">
-                        <a href="images/img_2.jpg" data-fancybox="gallery" class="gal"><img src="images/img_2.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="2393861837" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+                    <div class="col-md-4 col-sm-12 mb-4">
+                        <a href="images/img_2.jpg" data-fancybox="gallery" class="gal"><img src="images/img_2.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="2393861837"></a>
                     </div>
-                    <div class="col-4 mb-4">
-                        <a href="images/img_1_b.jpg" data-fancybox="gallery" class="gal"><img src="images/img_1_b.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="3364204467" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+                    <div class="col-md-4 col-sm-12 mb-4">
+                        <a href="images/img_1_b.jpg" data-fancybox="gallery" class="gal"><img src="images/img_1_b.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="3364204467"></a>
                     </div>
-                    <div class="col-4 mb-4">
+                    <div class="col-md-4 col-sm-12 mb-4">
                         <a href="images/img_2_b.jpg" data-fancybox="gallery" class="gal"><img src="images/img_2_b.jpg" alt="Image" class="img-fluid"></a>
                     </div>
-                    <div class="col-4 mb-4">
+                    <div class="col-md-4 col-sm-12 mb-4">
                         <a href="images/pizza/pizza4.jpg" data-fancybox="gallery" class="gal"><img src="images/pizza/pizza4.jpg" alt="Image" class="img-fluid"></a>
                     </div>
-                    <div class="col-4 mb-4">
+                    <div class="col-md-4 col-sm-12 mb-4">
                         <a href="images/pizza/pizza3.jpg" data-fancybox="gallery" class="gal"><img src="images/pizza/pizza3.jpg" alt="Image" class="img-fluid"></a>
                     </div>
 
@@ -207,11 +206,11 @@
                 </div>
                 <ul class="list-unstyled untree_co-tab-nav js-custom-dots text-center">
                     <li class="active text-center"><a href="#" class="d-flex align-items-center">
-                           <span class="text-center">Pizza</span>
+                            <span class="text-center">Pizza</span>
                         </a></li>
                     <li><a href="#" class="d-flex align-items-center"> <span>Burger</span></a></li>
                     <li><a href="#" class="d-flex align-items-center"> <span>Desert</span></a></li>
-                    <li><a href="#" class="d-flex align-items-center">  <span>Drinks</span></a></li>
+                    <li><a href="#" class="d-flex align-items-center"> <span>Drinks</span></a></li>
                 </ul>
             </div>
             <div class="col-lg-8 ml-auto" data-aos="fade-up" data-aos-delay="100">
@@ -226,25 +225,25 @@
                         <div class="row">
                             <div class="col-6 col-lg-6 mb-4">
                                 <div class="product">
-                                    <a href="#" class="thumbnail"><img src="images/img_1.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="2099361916" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+                                    <a href="#" class="thumbnail"><img src="images/img_1.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="2099361916"></a>
                                     <h3><a href="#">Italian Sauce Mushroom</a></h3>
                                 </div>
                             </div>
                             <div class="col-6 col-lg-6 mb-4">
                                 <div class="product">
-                                    <a href="#" class="thumbnail"><img src="images/img_2.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="2393861837" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+                                    <a href="#" class="thumbnail"><img src="images/img_2.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="2393861837"></a>
                                     <h3><a href="#">Salted Fried Chicken</a></h3>
                                 </div>
                             </div>
                             <div class="col-6 col-lg-6 mb-0">
                                 <div class="product">
-                                    <a href="#" class="thumbnail"><img src="images/img_3.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="2688361758" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+                                    <a href="#" class="thumbnail"><img src="images/img_3.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="2688361758"></a>
                                     <h3><a href="#">Fried Potato w/ Garlic</a></h3>
                                 </div>
                             </div>
                             <div class="col-6 col-lg-6 mb-0">
                                 <div class="product">
-                                    <a href="#" class="thumbnail"><img src="images/img_4.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="2982861679" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+                                    <a href="#" class="thumbnail"><img src="images/img_4.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="2982861679"></a>
                                     <h3><a href="#">Shrimp and olive</a></h3>
                                 </div>
                             </div>
@@ -261,25 +260,25 @@
                         <div class="row">
                             <div class="col-6 col-lg-6 mb-4">
                                 <div class="product">
-                                    <a href="#" class="thumbnail"><img src="images/img_1_b.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="3364204467" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+                                    <a href="#" class="thumbnail"><img src="images/img_1_b.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="3364204467"></a>
                                     <h3><a href="#">Italian Sauce Mushroom</a></h3>
                                 </div>
                             </div>
                             <div class="col-6 col-lg-6 mb-4">
                                 <div class="product">
-                                    <a href="#" class="thumbnail"><img src="images/img_2_b.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="2100841356" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+                                    <a href="#" class="thumbnail"><img src="images/img_2_b.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="2100841356"></a>
                                     <h3><a href="#">Salted Fried Chicken</a></h3>
                                 </div>
                             </div>
                             <div class="col-6 col-lg-6 mb-0">
                                 <div class="product">
-                                    <a href="#" class="thumbnail"><img src="images/img_3_b.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="837478245" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+                                    <a href="#" class="thumbnail"><img src="images/img_3_b.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="837478245"></a>
                                     <h3><a href="#">Fried Potato w/ Garlic</a></h3>
                                 </div>
                             </div>
                             <div class="col-6 col-lg-6 mb-0">
                                 <div class="product">
-                                    <a href="#" class="thumbnail"><img src="images/img_4_b.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="3869082430" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+                                    <a href="#" class="thumbnail"><img src="images/img_4_b.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="3869082430"></a>
                                     <h3><a href="#">Shrimp and olive</a></h3>
                                 </div>
                             </div>
@@ -296,25 +295,25 @@
                         <div class="row">
                             <div class="col-6 col-lg-6 mb-4">
                                 <div class="product">
-                                    <a href="#" class="thumbnail"><img src="images/img_1.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="2099361916" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+                                    <a href="#" class="thumbnail"><img src="images/img_1.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="2099361916"></a>
                                     <h3><a href="#">Italian Sauce Mushroom</a></h3>
                                 </div>
                             </div>
                             <div class="col-6 col-lg-6 mb-4">
                                 <div class="product">
-                                    <a href="#" class="thumbnail"><img src="images/img_2.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="2393861837" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+                                    <a href="#" class="thumbnail"><img src="images/img_2.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="2393861837"></a>
                                     <h3><a href="#">Salted Fried Chicken</a></h3>
                                 </div>
                             </div>
                             <div class="col-6 col-lg-6 mb-0">
                                 <div class="product">
-                                    <a href="#" class="thumbnail"><img src="images/img_1.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="2099361916" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+                                    <a href="#" class="thumbnail"><img src="images/img_1.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="2099361916"></a>
                                     <h3><a href="#">Fried Potato w/ Garlic</a></h3>
                                 </div>
                             </div>
                             <div class="col-6 col-lg-6 mb-0">
                                 <div class="product">
-                                    <a href="#" class="thumbnail"><img src="images/img_2.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="2393861837" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+                                    <a href="#" class="thumbnail"><img src="images/img_2.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="2393861837"></a>
                                     <h3><a href="#">Shrimp and olive</a></h3>
                                 </div>
                             </div>
@@ -331,31 +330,82 @@
                         <div class="row">
                             <div class="col-6 col-lg-6 mb-4">
                                 <div class="product">
-                                    <a href="#" class="thumbnail"><img src="images/img_1_d.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="3953204309" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+                                    <a href="#" class="thumbnail"><img src="images/img_1_d.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="3953204309"></a>
                                     <h3><a href="#">Italian Sauce Mushroom</a></h3>
                                 </div>
                             </div>
                             <div class="col-6 col-lg-6 mb-4">
                                 <div class="product">
-                                    <a href="#" class="thumbnail"><img src="images/img_2_d.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="2689841198" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+                                    <a href="#" class="thumbnail"><img src="images/img_2_d.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="2689841198"></a>
                                     <h3><a href="#">Salted Fried Chicken</a></h3>
                                 </div>
                             </div>
                             <div class="col-6 col-lg-6 mb-0">
                                 <div class="product">
-                                    <a href="#" class="thumbnail"><img src="images/img_3_d.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="1426478087" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+                                    <a href="#" class="thumbnail"><img src="images/img_3_d.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="1426478087"></a>
                                     <h3><a href="#">Fried Potato w/ Garlic</a></h3>
                                 </div>
                             </div>
                             <div class="col-6 col-lg-6 mb-0">
                                 <div class="product">
-                                    <a href="#" class="thumbnail"><img src="images/img_4_d.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="163114976" onload="pagespeed.CriticalImages.checkImageForCriticality(this);"></a>
+                                    <a href="#" class="thumbnail"><img src="images/img_4_d.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="163114976"></a>
                                     <h3><a href="#">Shrimp and olive</a></h3>
                                 </div>
                             </div>
                         </div>
 
                     </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="untree_co-section" style="background: #FFFAF2;">
+    <div class="container">
+        <div class="contain">
+
+            <div class="wrapper">
+                <div class="form">
+                    <h4>GET IN TOUCH</h4>
+                    <h2 class="form-headline">Send us a message</h2>
+                    <form id="submit-form" action="">
+                        <div class="row full-width">
+                            <div class="col-md-6 col-sm-12 mt-3">
+                                <input id="name" class="form-input" type="text" placeholder="Your Name*">
+                                <small class="name-error"></small>
+                            </div>
+                            <div class="col-md-6 col-sm-12 mt-3">
+                                <input id="phone" class="form-input" type="number" placeholder="Your Phone*">
+                                <small class="name-error"></small>
+                            </div>
+                            <div class="col-md-6 col-sm-12 mt-3">
+                                <input id="email" class="form-input" type="email" placeholder="Your Email">
+                                <small class="name-error"></small>
+                            </div>
+                        </div>
+                        <p class="full-width">
+                            <textarea minlength="20" id="message" cols="30" rows="7" placeholder="Your Message*" required></textarea>
+                            <small></small>
+                        </p>
+                        <p class="full-width">
+                            <input type="checkbox" id="checkbox" name="checkbox" checked> Yes, I would like to receive communications by call / email about Company's services.
+                        </p>
+                        <p class="full-width">
+                            <input type="submit" class="submit-btn" value="Submit" onclick="checkValidations()">
+                            <button class="reset-btn" onclick="reset()">Reset</button>
+                        </p>
+                    </form>
+                </div>
+                <div class="contacts contact-wrapper">
+
+                    <ul>
+                        <li>Call us now to get your order delivered</li>
+                        <span class="hightlight-contact-info">
+                            <li class="email-info"><i class="fa fa-envelope" aria-hidden="true"></i> contact@thechezzyslice.com</li>
+                            <li><i class="fa fa-phone" aria-hidden="true"></i> <span class="highlight-text">+91 11 1111 2900</span></li>
+                        </span>
+                    </ul>
                 </div>
             </div>
         </div>
