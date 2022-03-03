@@ -21,32 +21,13 @@ Route::get('/contact', function () {
     return view('contact');
 });
 
-Route::get('/about-us', function () {
-    return view('aboutus');
-});
-
-Route::get('/be-partner', function () {
-    return view('bePartner');
-});
-
-Route::get('/warranty', function () {
-    return view('warranty');
-});
-
-Route::get('/prouduct-types', function () {
-    return view('productTypes');
-});
-
-Route::get('/products', function () {
-    return view('products');
-});
-
-Route::get('/product-details', function () {
-    return view('productDetails');
-});
-
+// Admin routes
 Route::get('/admin', function () {
     return view('admin.login');
+});
+
+Route::get('/dashboard', function () {
+    return view('admin.dashboard');
 });
 
 
