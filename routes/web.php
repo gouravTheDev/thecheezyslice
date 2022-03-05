@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\GalleryController;
 
 /*
 |--------------------------------------------------------------------------
@@ -29,6 +30,8 @@ Route::get('/admin', function () {
 Route::get('/admin/dashboard', function () {
     return view('admin.dashboard');
 });
+
+Route::get('/admin/gallery', 'App\Http\Controllers\GalleryController@list'); 
 
 
 

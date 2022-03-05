@@ -8,7 +8,7 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="btn btn-warning ml-4" href="#">Gallery </a>
+        <a class="btn btn-warning ml-4" href="/admin/gallery">Gallery </a>
       </li>
       <li class="nav-item active">
         <a class="btn btn-warning ml-3" href="#">Menu Type</a>
