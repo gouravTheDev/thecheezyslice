@@ -1,31 +1,4 @@
 @include('include.header')
-
-<div class="site-mobile-menu">
-    <div class="site-mobile-menu-header">
-        <div class="site-mobile-menu-close">
-            <span class="icofont-close js-menu-toggle"></span>
-        </div>
-    </div>
-    <div class="site-mobile-menu-body"></div>
-</div>
-<nav class="site-nav mb-5">
-    <div class="container-fluid">
-        <div class="site-navigation text-right pt-0">
-            <a href="/" class="logo menu-absolute m-0"><img src="images/logo.png" class="logo-image" alt=""></a>
-            <ul class="js-clone-nav d-none d-lg-inline-block site-menu">
-                <li class="active"><a href="/">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Gallery</a></li>
-                <li><a href="#">Menu</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-            <!-- <a href="#" class="btn-book btn btn-primary btn-sm menu-absolute">Book a table</a> -->
-            <a href="#" class="burger ml-auto float-right site-menu-toggle js-menu-toggle d-inline-block d-lg-none light" data-toggle="collapse" data-target="#main-navbar">
-                <span></span>
-            </a>
-        </div>
-    </div>
-</nav>
 <div class="untree_co-hero overlay" style="background-image: url('images/pizza-h.jpg');">
     <div class="container">
         <div class="row align-items-center justify-content-center">

@@ -18,8 +18,8 @@ Route::get('/', function () {
     return view('index');
 });
 
-Route::get('/contact', function () {
-    return view('contact');
+Route::get('/menu', function () {
+    return view('menu');
 });
 
 // Admin routes
@@ -32,6 +32,7 @@ Route::get('/admin/dashboard', function () {
 });
 
 Route::get('/admin/gallery', 'App\Http\Controllers\GalleryController@list'); 
+Route::post('/admin/upload-image', 'App\Http\Controllers\GalleryController@upload'); 
 
 
 

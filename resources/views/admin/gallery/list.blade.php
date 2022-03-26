@@ -23,8 +23,14 @@
                 </button>
             </div>
             <div class="modal-body">
-                <form action="">
-                    <!--  -->
+                <form id="uploadImageForm" name="uploadImageForm">
+                    <div class="form-group">
+                        <label>Upload Image</label>
+                        <input type="file" accept="image/png, image/gif, image/jpeg, image/jpg" class="form-control" id="upload-images" name="images[]" multiple>
+                    </div>
+                    <div class="form-group text-right mt-3">
+                        <button type="button" class="btn btn-success upload-image-btn">Upload</button>
+                    </div>
                 </form>
             </div>
             <div class="modal-footer">
@@ -34,6 +40,44 @@
         </div>
     </div>
 </div>
+
+<script>
+    $('.upload-image-btn').on('click', function(e) {
+        console.log("hello")
+        var formdata = new FormData();
+        jQuery.each($('#upload-images')[0].files, function(i, file) {
+            formdata.append('images[' + i + ']', file);
+        });
+
+        $.ajax({
+            type: 'POST',
+            url: '/admin/upload-image',
+            data: formData,
+            error: function(res) {
+                console.log("error", res);
+                // $('#ticket-modal').modal('hide');
+            },
+            success: function(res) {
+                console.log(res);
+                // if (res.error != '') {
+                //     window.FlashMessage.error(res.error, {
+                //         progress: true,
+                //         timeout: 6000
+                //     });
+                // } else {
+                //     window.FlashMessage.success(res.success, {
+                //         progress: true,
+                //         timeout: 6000
+                //     });
+                // }
+                // $('#ticket-modal').modal('hide');
+                // $.get('/support/tickets', function(htmldata) {
+                //     $('.contentDiv').html(htmldata);
+                // });
+            }
+        });
+    });
+</script>
 
 
 @include('admin.include.footer')
