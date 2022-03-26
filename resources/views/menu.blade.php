@@ -9,48 +9,48 @@
                     <h3>Popular <strong class="text-primary">Foods</strong></h3>
                 </div>
 
-                <div class="row mb-3 untree_co-tab-nav d-sm-block d-md-none menu-item text-center">
-                    <div class="col-4 active">
+                <div class="row px-1 mb-3 untree_co-tab-nav d-sm-block d-md-none menu-item text-center">
+                    <div class="col-4 mx-0 px-0 active">
                         <a href="#" class="d-flex align-items-center">
                             <span class="text-center">Pizza</span>
                         </a>
                     </div>
-                    <div class="col-4">
+                    <div class="col-4 mx-0 px-0">
                         <a href="#" class="d-flex align-items-center">
                             <span class="text-center">Burger</span>
                         </a>
                     </div>
-                    <div class="col-4">
+                    <div class="col-4 mx-0 px-0">
                         <a href="#" class="d-flex align-items-center">
                             <span class="text-center">Sandwich</span>
                         </a>
                     </div>
-                    <div class="col-4">
+                    <div class="col-4 mx-0 px-0">
                         <a href="#" class="d-flex align-items-center">
                             <span class="text-center">Mocktail</span>
                         </a>
                     </div>
-                    <div class="col-4">
+                    <div class="col-4 mx-0 px-0">
                         <a href="#" class="d-flex align-items-center">
                             <span class="text-center">Desert</span>
                         </a>
                     </div>
-                    <div class="col-4">
+                    <div class="col-4 mx-0 px-0">
                         <a href="#" class="d-flex align-items-center">
                             <span class="text-center">Combo</span>
                         </a>
                     </div>
-                    <div class="col-6">
+                    <div class="col-6 mx-0 px-0">
                         <a href="#" class="d-flex align-items-center">
                             <span class="text-center">Extra Toppings</span>
                         </a>
                     </div>
-                    <div class="col-4">
+                    <div class="col-4 mx-0 px-0">
                         <a href="#" class="d-flex align-items-center">
                             <span class="text-center">Offers</span>
                         </a>
                     </div>
-                    <div class="col-6">
+                    <div class="col-6  mx-0 px-0">
                         <a href="#" class="d-flex align-items-center">
                             <span class="text-center">Beverages</span>
                         </a>
@@ -92,12 +92,12 @@
                                 <div class="row">
                                     <div class="col-6">
                                         <p class="text-black">
-                                            8 inches <br><span style="font-size: 0.85em;">(Normal Crust/Cheese Burst)</span>
+                                            <span style="font-size: 0.8em;">8 inches</span> <br><span style="font-size: 0.75em;">(Normal Crust/Cheese Burst)</span>
                                         </p>
                                     </div>
                                     <div class="col-6">
                                         <p class="text-black">
-                                            12 inches <br> <span style="font-size: 0.9em;">(Normal Crust)</span>
+                                            <span style="font-size: 0.8em;">12 inches</span> <br> <span style="font-size: 0.75em;">(Normal Crust)</span>
                                         </p>
                                     </div>
                                 </div>
@@ -111,10 +111,10 @@
                                 </div>
                                 <div class="col-6 text-right">
                                     <div class="row">
-                                        <div class="col-6">
+                                        <div class="col-7">
                                             <h6 class="text-black">90 / 130</h6>
                                         </div>
-                                        <div class="col-6">
+                                        <div class="col-5">
                                             <h6 class="text-black">180</h6>
                                         </div>
                                     </div>
@@ -126,10 +126,10 @@
                                 </div>
                                 <div class="col-6 text-right">
                                     <div class="row">
-                                        <div class="col-6">
+                                        <div class="col-7">
                                             <h6 class="text-black">90/ 130</h6>
                                         </div>
-                                        <div class="col-6">
+                                        <div class="col-5">
                                             <h6 class="text-black">180</h6>
                                         </div>
                                     </div>
@@ -141,10 +141,10 @@
                                 </div>
                                 <div class="col-6 text-right">
                                     <div class="row">
-                                        <div class="col-6">
+                                        <div class="col-7">
                                             <h6 class="text-black">115 / 150</h6>
                                         </div>
-                                        <div class="col-6">
+                                        <div class="col-5">
                                             <h6 class="text-black">199</h6>
                                         </div>
                                     </div>
@@ -156,10 +156,10 @@
                                 </div>
                                 <div class="col-6 text-right">
                                     <div class="row">
-                                        <div class="col-6">
+                                        <div class="col-7">
                                             <h6 class="text-black">125 / 165</h6>
                                         </div>
-                                        <div class="col-6">
+                                        <div class="col-5">
                                             <h6 class="text-black">210</h6>
                                         </div>
                                     </div>
@@ -171,10 +171,10 @@
                                 </div>
                                 <div class="col-6 text-right">
                                     <div class="row">
-                                        <div class="col-6">
+                                        <div class="col-7">
                                             <h6 class="text-black">130 / 175</h6>
                                         </div>
-                                        <div class="col-6">
+                                        <div class="col-5">
                                             <h6 class="text-black">230</h6>
                                         </div>
                                     </div>
@@ -186,10 +186,10 @@
                                 </div>
                                 <div class="col-6 text-right">
                                     <div class="row">
-                                        <div class="col-6">
+                                        <div class="col-7">
                                             <h6 class="text-black">145 / 185</h6>
                                         </div>
-                                        <div class="col-6">
+                                        <div class="col-5">
                                             <h6 class="text-black">245</h6>
                                         </div>
                                     </div>
