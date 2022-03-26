@@ -111,10 +111,10 @@
                                 </div>
                                 <div class="col-6 text-right">
                                     <div class="row">
-                                        <div class="col-7">
+                                        <div class="col-6">
                                             <h6 class="text-black">90 / 130</h6>
                                         </div>
-                                        <div class="col-5">
+                                        <div class="col-6">
                                             <h6 class="text-black">180</h6>
                                         </div>
                                     </div>
@@ -126,10 +126,10 @@
                                 </div>
                                 <div class="col-6 text-right">
                                     <div class="row">
-                                        <div class="col-7">
+                                        <div class="col-6">
                                             <h6 class="text-black">90/ 130</h6>
                                         </div>
-                                        <div class="col-5">
+                                        <div class="col-6">
                                             <h6 class="text-black">180</h6>
                                         </div>
                                     </div>
@@ -141,10 +141,10 @@
                                 </div>
                                 <div class="col-6 text-right">
                                     <div class="row">
-                                        <div class="col-7">
+                                        <div class="col-6">
                                             <h6 class="text-black">115 / 150</h6>
                                         </div>
-                                        <div class="col-5">
+                                        <div class="col-6">
                                             <h6 class="text-black">199</h6>
                                         </div>
                                     </div>
@@ -156,10 +156,10 @@
                                 </div>
                                 <div class="col-6 text-right">
                                     <div class="row">
-                                        <div class="col-7">
+                                        <div class="col-6">
                                             <h6 class="text-black">125 / 165</h6>
                                         </div>
-                                        <div class="col-5">
+                                        <div class="col-6">
                                             <h6 class="text-black">210</h6>
                                         </div>
                                     </div>
@@ -171,10 +171,10 @@
                                 </div>
                                 <div class="col-6 text-right">
                                     <div class="row">
-                                        <div class="col-7">
+                                        <div class="col-6">
                                             <h6 class="text-black">130 / 175</h6>
                                         </div>
-                                        <div class="col-5">
+                                        <div class="col-6">
                                             <h6 class="text-black">230</h6>
                                         </div>
                                     </div>
@@ -186,10 +186,10 @@
                                 </div>
                                 <div class="col-6 text-right">
                                     <div class="row">
-                                        <div class="col-7">
+                                        <div class="col-6">
                                             <h6 class="text-black">145 / 185</h6>
                                         </div>
-                                        <div class="col-5">
+                                        <div class="col-6">
                                             <h6 class="text-black">245</h6>
                                         </div>
                                     </div>
@@ -767,47 +767,3 @@
 </div>
 
 @include('include.footer')
-<script>
-    var owls = $(".owl-single").owlCarousel({
-        loop: true,
-        autoHeight: true,
-        margin: 0,
-        smartSpeed: 800,
-        mouseDrag: false,
-        touchDrag: false,
-        items: 1,
-        nav: false,
-        navText: [
-            '<span class="icon-keyboard_backspace"></span>',
-            '<span class="icon-keyboard_backspace"></span>',
-        ],
-    });
-
-    $(".menu-item li").each(function(i) {
-        var i = i + 1;
-        $(this).attr("data-index", i);
-    });
-    $(".menu-item li").on("click", function(e) {
-        $(".menu-item li").removeClass('active');
-        $(this).addClass('active');
-        e.preventDefault();
-        owls.trigger("stop.owl.autoplay");
-        var k = $(this).closest("li").data("index");
-        k = k - 1;
-        owls.trigger("to.owl.carousel", [k, 500]);
-    });
-
-    $(".menu-item div").each(function(i) {
-        var i = i + 1;
-        $(this).attr("data-index", i);
-    });
-    $(".menu-item div").on("click", function(e) {
-        $(".menu-item div").removeClass('active');
-        $(this).addClass('active');
-        e.preventDefault();
-        owls.trigger("stop.owl.autoplay");
-        var k = $(this).closest("div").data("index");
-        k = k - 1;
-        owls.trigger("to.owl.carousel", [k, 500]);
-    });
-</script>

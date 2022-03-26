@@ -32,15 +32,15 @@
         <div class="container-fluid">
             <div class="site-navigation text-right pt-0">
                 <a href="/" class="logo menu-absolute m-0"><img src="images/logo.png" class="logo-image" alt=""></a>
-                <ul class="js-clone-nav d-none d-lg-inline-block site-menu">
+                <ul class="js-clone-nav d-none-2 d-lg-inline-block site-menu">
                     <li class="active"><a href="/">Home</a></li>
                     <li><a href="#">About Us</a></li>
-                    <li><a href="#">Gallery</a></li>
+                    <li><a href="/gallery">Gallery</a></li>
                     <li><a href="/menu">Menu</a></li>
                     <li><a href="#">Contact</a></li>
                 </ul>
                 <!-- <a href="#" class="btn-book btn btn-primary btn-sm menu-absolute">Book a table</a> -->
-                <a href="#" class="burger ml-auto float-right site-menu-toggle js-menu-toggle d-inline-block d-lg-none light" data-toggle="collapse" data-target="#main-navbar">
+                <a href="#" class="burger ml-auto float-right site-menu-toggle js-menu-toggle d-inline-block d-lg-none-2 light" data-toggle="collapse" data-target="#main-navbar">
                     <span></span>
                 </a>
             </div>

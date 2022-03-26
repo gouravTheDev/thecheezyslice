@@ -22,6 +22,10 @@ Route::get('/menu', function () {
     return view('menu');
 });
 
+Route::get('/gallery', function () {
+    return view('gallery');
+});
+
 // Admin routes
 Route::get('/admin', function () {
     return view('admin.login');

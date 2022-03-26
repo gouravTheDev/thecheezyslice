@@ -142,7 +142,7 @@
                 </div>
             </div> -->
             <div class="col-lg-12 mt-1 mt-lg-0 text-center" data-aos="fade-up" data-aos-delay="100">
-                <span class="subtitle">Galleries</span>
+                <span class="subtitle">Gallery</span>
                 <h2 class="mb-5">Photo <strong class="text-primary">Galleries</strong></h2>
                 <div class="row">
                     <div class="col-md-4 col-sm-12 mb-4">
@@ -166,9 +166,13 @@
 
                 </div>
             </div>
+            <div class="col-12 text-center mt-4 pt-4">
+                <a href="/gallery" class="btn btn-primary mt-4">View All</a>
+            </div>
         </div>
     </div>
 </div>
+
 <div class="untree_co-section" style="background: #FDFDFA;">
     <div class="container">
         <div class="row">
@@ -177,158 +181,419 @@
                     <span class="subtitle">Our Menu</span>
                     <h3>Popular <strong class="text-primary">Foods</strong></h3>
                 </div>
-                <ul class="list-unstyled untree_co-tab-nav js-custom-dots text-center">
-                    <li class="active text-center"><a href="#" class="d-flex align-items-center">
+
+                <div class="row px-1 mb-3 untree_co-tab-nav d-sm-block d-md-none menu-item text-center">
+                    <div class="col-4 mx-0 px-0 active">
+                        <a href="#" class="d-flex align-items-center">
                             <span class="text-center">Pizza</span>
-                        </a></li>
+                        </a>
+                    </div>
+                    <div class="col-4 mx-0 px-0">
+                        <a href="#" class="d-flex align-items-center">
+                            <span class="text-center">Burger</span>
+                        </a>
+                    </div>
+                    <div class="col-4 mx-0 px-0">
+                        <a href="#" class="d-flex align-items-center">
+                            <span class="text-center">Sandwich</span>
+                        </a>
+                    </div>
+                    <div class="col-4 mx-0 px-0">
+                        <a href="#" class="d-flex align-items-center">
+                            <span class="text-center">Mocktail</span>
+                        </a>
+                    </div>
+                </div>
+                <ul class="list-unstyled untree_co-tab-nav menu-item text-center d-none d-md-block d-lg-block d-xl-block d-sm-block">
+                    <li class="active text-center">
+                        <a href="#" class="d-flex align-items-center">
+                            <span class="text-center">Pizza</span>
+                        </a>
+                    </li>
                     <li><a href="#" class="d-flex align-items-center"> <span>Burger</span></a></li>
-                    <li><a href="#" class="d-flex align-items-center"> <span>Desert</span></a></li>
-                    <li><a href="#" class="d-flex align-items-center"> <span>Drinks</span></a></li>
+                    <li><a href="#" class="d-flex align-items-center"> <span>Sandwich</span></a></li>
+                    <li><a href="#" class="d-flex align-items-center"> <span>Mocktail</span></a></li>
                 </ul>
             </div>
             <div class="col-lg-8 ml-auto" data-aos="fade-up" data-aos-delay="100">
                 <div class="owl-single no-dots owl-carousel">
+
+                    <!-- Pizza Starts -->
+
                     <div class="item">
                         <div class="row align-items-center mb-4">
                             <div class="col-6">
                                 <h2 class="text-black">Pizza</h2>
                             </div>
-                            <div class="col-6 text-right number">1/4</div>
+                            <div class="col-6 text-right number">1/9</div>
                         </div>
                         <div class="row">
-                            <div class="col-6 col-lg-6 mb-4">
-                                <div class="product">
-                                    <a href="#" class="thumbnail"><img src="images/img_1.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="2099361916"></a>
-                                    <h3><a href="#">Italian Sauce Mushroom</a></h3>
-                                </div>
+                            <div class="col-6">
+                                <h5 class="text-black font-weight-bold">Non-Veg</h5>
                             </div>
-                            <div class="col-6 col-lg-6 mb-4">
-                                <div class="product">
-                                    <a href="#" class="thumbnail"><img src="images/img_2.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="2393861837"></a>
-                                    <h3><a href="#">Salted Fried Chicken</a></h3>
-                                </div>
-                            </div>
-                            <div class="col-6 col-lg-6 mb-0">
-                                <div class="product">
-                                    <a href="#" class="thumbnail"><img src="images/img_3.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="2688361758"></a>
-                                    <h3><a href="#">Fried Potato w/ Garlic</a></h3>
-                                </div>
-                            </div>
-                            <div class="col-6 col-lg-6 mb-0">
-                                <div class="product">
-                                    <a href="#" class="thumbnail"><img src="images/img_4.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="2982861679"></a>
-                                    <h3><a href="#">Shrimp and olive</a></h3>
+                            <div class="col-6 text-right">
+                                <div class="row">
+                                    <div class="col-6">
+                                        <p class="text-black">
+                                            <span style="font-size: 0.8em;">8 inches</span> <br><span style="font-size: 0.75em;">(Normal Crust/Cheese Burst)</span>
+                                        </p>
+                                    </div>
+                                    <div class="col-6">
+                                        <p class="text-black">
+                                            <span style="font-size: 0.8em;">12 inches</span> <br> <span style="font-size: 0.75em;">(Normal Crust)</span>
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
 
+                        <div class="pizzas">
+                            <div class="row mt-4">
+                                <div class="col-6">
+                                    <h6 class="text-black">Crispy Chicken Pizza</h6>
+                                </div>
+                                <div class="col-6 text-right">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <h6 class="text-black">90 / 130</h6>
+                                        </div>
+                                        <div class="col-6">
+                                            <h6 class="text-black">180</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-6">
+                                    <h6 class="text-black">Spicy Chicken Pizza</h6>
+                                </div>
+                                <div class="col-6 text-right">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <h6 class="text-black">90/ 130</h6>
+                                        </div>
+                                        <div class="col-6">
+                                            <h6 class="text-black">180</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-6">
+                                    <h6 class="text-black">Spicy Chicken Pasta Pizza</h6>
+                                </div>
+                                <div class="col-6 text-right">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <h6 class="text-black">115 / 150</h6>
+                                        </div>
+                                        <div class="col-6">
+                                            <h6 class="text-black">199</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row my-4">
+                            <div class="col-6">
+                                <h5 class="text-black font-weight-bold">Veg</h5>
+                            </div>
+                            <div class="col-6 text-right">
+                            </div>
+                        </div>
+                        <div class="pizzas">
+                            <div class="row mt-4">
+                                <div class="col-6">
+                                    <h6 class="text-black">Margherita Pizza</h6>
+                                </div>
+                                <div class="col-6 text-right">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <h6 class="text-black">65 / 110</h6>
+                                        </div>
+                                        <div class="col-6">
+                                            <h6 class="text-black">130</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-6">
+                                    <h6 class="text-black">Cheese & Corn Pizza</h6>
+                                </div>
+                                <div class="col-6 text-right">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <h6 class="text-black">70/ 120</h6>
+                                        </div>
+                                        <div class="col-6">
+                                            <h6 class="text-black">135</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-6">
+                                    <h6 class="text-black">Spicy Chilli Pizza</h6>
+                                </div>
+                                <div class="col-6 text-right">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <h6 class="text-black">65 / 120</h6>
+                                        </div>
+                                        <div class="col-6">
+                                            <h6 class="text-black">130</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-6">
+                                    <h6 class="text-black">Mushroom Pizza</h6>
+                                </div>
+                                <div class="col-6 text-right">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <h6 class="text-black">80 / 140</h6>
+                                        </div>
+                                        <div class="col-6">
+                                            <h6 class="text-black">165</h6>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+
+                    <!-- Pizza Ends -->
+
+                    <!-- Burger Starts -->
+
                     <div class="item">
                         <div class="row align-items-center mb-4">
                             <div class="col-6">
                                 <h2 class="text-black">Burger</h2>
                             </div>
-                            <div class="col-6 text-right number">2/4</div>
+                            <div class="col-6 text-right number">2/9</div>
                         </div>
                         <div class="row">
-                            <div class="col-6 col-lg-6 mb-4">
-                                <div class="product">
-                                    <a href="#" class="thumbnail"><img src="images/img_1_b.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="3364204467"></a>
-                                    <h3><a href="#">Italian Sauce Mushroom</a></h3>
+                            <div class="col-6">
+                                <h5 class="text-black font-weight-bold">Non-Veg</h5>
+                            </div>
+                            <div class="col-6 text-right">
+                            </div>
+                        </div>
+
+                        <div class="burgers">
+                            <div class="row mt-4">
+                                <div class="col-6">
+                                    <h6 class="text-black">Chicken Patty Burger</h6>
+                                </div>
+                                <div class="col-6 text-right">
+                                    <h6 class="text-black">50</h6>
                                 </div>
                             </div>
-                            <div class="col-6 col-lg-6 mb-4">
-                                <div class="product">
-                                    <a href="#" class="thumbnail"><img src="images/img_2_b.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="2100841356"></a>
-                                    <h3><a href="#">Salted Fried Chicken</a></h3>
+                            <div class="row mt-3">
+                                <div class="col-6">
+                                    <h6 class="text-black">Grill Barbeque chicken Burger</h6>
+                                </div>
+                                <div class="col-6 text-right">
+                                    <h6 class="text-black">65</h6>
                                 </div>
                             </div>
-                            <div class="col-6 col-lg-6 mb-0">
-                                <div class="product">
-                                    <a href="#" class="thumbnail"><img src="images/img_3_b.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="837478245"></a>
-                                    <h3><a href="#">Fried Potato w/ Garlic</a></h3>
+                            <div class="row mt-3">
+                                <div class="col-6">
+                                    <h6 class="text-black">Special jumbo chicken Burger</h6>
                                 </div>
-                            </div>
-                            <div class="col-6 col-lg-6 mb-0">
-                                <div class="product">
-                                    <a href="#" class="thumbnail"><img src="images/img_4_b.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="3869082430"></a>
-                                    <h3><a href="#">Shrimp and olive</a></h3>
+                                <div class="col-6 text-right">
+                                    <h6 class="text-black">99</h6>
                                 </div>
                             </div>
                         </div>
 
+                        <div class="row mt-4">
+                            <div class="col-6">
+                                <h5 class="text-black font-weight-bold">Veg</h5>
+                            </div>
+                            <div class="col-6 text-right">
+                            </div>
+                        </div>
+
+                        <div class="burgers">
+                            <div class="row mt-4">
+                                <div class="col-6">
+                                    <h6 class="text-black">Veg Patty Burger</h6>
+                                </div>
+                                <div class="col-6 text-right">
+                                    <h6 class="text-black">35</h6>
+                                </div>
+                            </div>
+                        </div>
                     </div>
+
+                    <!-- Burger Ends -->
+
+                    <!-- Sandwich Starts -->
+
                     <div class="item">
                         <div class="row align-items-center mb-4">
                             <div class="col-6">
-                                <h2 class="text-black">Desert</h2>
+                                <h2 class="text-black">Sandwich</h2>
                             </div>
-                            <div class="col-6 text-right number">3/4</div>
+                            <div class="col-6 text-right number">3/9</div>
                         </div>
-                        <div class="row">
-                            <div class="col-6 col-lg-6 mb-4">
-                                <div class="product">
-                                    <a href="#" class="thumbnail"><img src="images/img_1.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="2099361916"></a>
-                                    <h3><a href="#">Italian Sauce Mushroom</a></h3>
+
+                        <div class="burgers">
+                            <div class="row mt-4">
+                                <div class="col-6">
+                                    <h6 class="text-black">Chicken Sandwich</h6>
+                                </div>
+                                <div class="col-6 text-right">
+                                    <h6 class="text-black">45</h6>
                                 </div>
                             </div>
-                            <div class="col-6 col-lg-6 mb-4">
-                                <div class="product">
-                                    <a href="#" class="thumbnail"><img src="images/img_2.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="2393861837"></a>
-                                    <h3><a href="#">Salted Fried Chicken</a></h3>
+                            <div class="row mt-3">
+                                <div class="col-6">
+                                    <h6 class="text-black">Veg Sandwich</h6>
                                 </div>
-                            </div>
-                            <div class="col-6 col-lg-6 mb-0">
-                                <div class="product">
-                                    <a href="#" class="thumbnail"><img src="images/img_1.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="2099361916"></a>
-                                    <h3><a href="#">Fried Potato w/ Garlic</a></h3>
-                                </div>
-                            </div>
-                            <div class="col-6 col-lg-6 mb-0">
-                                <div class="product">
-                                    <a href="#" class="thumbnail"><img src="images/img_2.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="2393861837"></a>
-                                    <h3><a href="#">Shrimp and olive</a></h3>
+                                <div class="col-6 text-right">
+                                    <h6 class="text-black">30</h6>
                                 </div>
                             </div>
                         </div>
 
                     </div>
+
+                    <!-- Sandwich Ends -->
+
+                    <!-- Mocktail Starts -->
+
                     <div class="item">
                         <div class="row align-items-center mb-4">
                             <div class="col-6">
-                                <h2 class="text-black">Drinks</h2>
+                                <h2 class="text-black">Mocktail</h2>
                             </div>
-                            <div class="col-6 text-right number">4/4</div>
+                            <div class="col-6 text-right number">4/9</div>
                         </div>
-                        <div class="row">
-                            <div class="col-6 col-lg-6 mb-4">
-                                <div class="product">
-                                    <a href="#" class="thumbnail"><img src="images/img_1_d.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="3953204309"></a>
-                                    <h3><a href="#">Italian Sauce Mushroom</a></h3>
+
+                        <div class="burgers">
+                            <div class="row mt-4">
+                                <div class="col-6">
+                                    <h6 class="text-black">Fresh Lime Soda</h6>
+                                </div>
+                                <div class="col-6 text-right">
+                                    <h6 class="text-black">20</h6>
                                 </div>
                             </div>
-                            <div class="col-6 col-lg-6 mb-4">
-                                <div class="product">
-                                    <a href="#" class="thumbnail"><img src="images/img_2_d.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="2689841198"></a>
-                                    <h3><a href="#">Salted Fried Chicken</a></h3>
+                            <div class="row mt-4">
+                                <div class="col-6">
+                                    <h6 class="text-black">Virgin Mojito</h6>
+                                </div>
+                                <div class="col-6 text-right">
+                                    <h6 class="text-black">30</h6>
                                 </div>
                             </div>
-                            <div class="col-6 col-lg-6 mb-0">
-                                <div class="product">
-                                    <a href="#" class="thumbnail"><img src="images/img_3_d.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="1426478087"></a>
-                                    <h3><a href="#">Fried Potato w/ Garlic</a></h3>
+                            <div class="row mt-4">
+                                <div class="col-6">
+                                    <h6 class="text-black">Orange Mojito</h6>
+                                </div>
+                                <div class="col-6 text-right">
+                                    <h6 class="text-black">35</h6>
                                 </div>
                             </div>
-                            <div class="col-6 col-lg-6 mb-0">
-                                <div class="product">
-                                    <a href="#" class="thumbnail"><img src="images/img_4_d.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="163114976"></a>
-                                    <h3><a href="#">Shrimp and olive</a></h3>
+                            <div class="row mt-4">
+                                <div class="col-6">
+                                    <h6 class="text-black">Blue lagoon</h6>
+                                </div>
+                                <div class="col-6 text-right">
+                                    <h6 class="text-black">35</h6>
                                 </div>
                             </div>
+                            <div class="row mt-4">
+                                <div class="col-6">
+                                    <h6 class="text-black">Aam Panna</h6>
+                                </div>
+                                <div class="col-6 text-right">
+                                    <h6 class="text-black">35</h6>
+                                </div>
+                            </div>
+                            <div class="row mt-4">
+                                <div class="col-6">
+                                    <h6 class="text-black">Red Sunset</h6>
+                                </div>
+                                <div class="col-6 text-right">
+                                    <h6 class="text-black">35</h6>
+                                </div>
+                            </div>
+                            <div class="row mt-4">
+                                <div class="col-6">
+                                    <h6 class="text-black">Spicy Lichi Lemonade</h6>
+                                </div>
+                                <div class="col-6 text-right">
+                                    <h6 class="text-black">35</h6>
+                                </div>
+                            </div>
+                            <div class="row mt-4">
+                                <div class="col-6">
+                                    <h6 class="text-black">Pineapple Lemonade</h6>
+                                </div>
+                                <div class="col-6 text-right">
+                                    <h6 class="text-black">35</h6>
+                                </div>
+                            </div>
+                            <div class="row mt-4">
+                                <div class="col-6">
+                                    <h6 class="text-black">Green Apple Lemonade</h6>
+                                </div>
+                                <div class="col-6 text-right">
+                                    <h6 class="text-black">35</h6>
+                                </div>
+                            </div>
+                            <div class="row mt-4">
+                                <div class="col-6">
+                                    <h6 class="text-black">Strawberry Lemonade</h6>
+                                </div>
+                                <div class="col-6 text-right">
+                                    <h6 class="text-black">35</h6>
+                                </div>
+                            </div>
+                            <div class="row mt-4">
+                                <div class="col-6">
+                                    <h6 class="text-black">Black Current Lemonade</h6>
+                                </div>
+                                <div class="col-6 text-right">
+                                    <h6 class="text-black">35</h6>
+                                </div>
+                            </div>
+                            <div class="row mt-4">
+                                <div class="col-6">
+                                    <h6 class="text-black">Mango Lemonade</h6>
+                                </div>
+                                <div class="col-6 text-right">
+                                    <h6 class="text-black">35</h6>
+                                </div>
+                            </div>
+                            <div class="row mt-4">
+                                <div class="col-6">
+                                    <h6 class="text-black">Masala Cola</h6>
+                                </div>
+                                <div class="col-6 text-right">
+                                    <h6 class="text-black">40</h6>
+                                </div>
+                            </div>
+
                         </div>
 
                     </div>
+
+                    <!-- Mocktail Ends -->
+
                 </div>
+            </div>
+
+            <div class="col-12 text-center mt-4 pt-4">
+                <a href="/menu" class="btn btn-primary mt-4">View All</a>
             </div>
         </div>
     </div>
@@ -376,7 +641,7 @@
                         <li>Call us now to get your order delivered</li>
                         <span class="hightlight-contact-info">
                             <li class="email-info"><i class="fa fa-envelope" aria-hidden="true"></i> contact@thechezzyslice.com</li>
-                            <li><i class="fa fa-phone" aria-hidden="true"></i> <span class="highlight-text">+91 11 1111 2900</span></li>
+                            <li><i class="fa fa-phone" aria-hidden="true"></i> <span class="highlight-text">+91 79809 87521</span></li>
                         </span>
                     </ul>
                 </div>
