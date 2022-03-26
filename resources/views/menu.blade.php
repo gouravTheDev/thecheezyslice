@@ -333,6 +333,161 @@
 
                     <!-- Burger Ends -->
 
+                    <!-- Sandwich Starts -->
+
+                    <div class="item">
+                        <div class="row align-items-center mb-4">
+                            <div class="col-6">
+                                <h2 class="text-black">Sandwich</h2>
+                            </div>
+                            <div class="col-6 text-right number">3/9</div>
+                        </div>
+
+                        <div class="burgers">
+                            <div class="row mt-4">
+                                <div class="col-5">
+                                    <h6 class="text-black">Chicken Sandwich</h6>
+                                </div>
+                                <div class="col-7 text-right">
+                                    <h6 class="text-black">45</h6>
+                                </div>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-5">
+                                    <h6 class="text-black">Veg Sandwich</h6>
+                                </div>
+                                <div class="col-7 text-right">
+                                    <h6 class="text-black">30</h6>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <!-- Sandwich Ends -->
+
+                    <!-- Mocktail Starts -->
+
+                    <div class="item">
+                        <div class="row align-items-center mb-4">
+                            <div class="col-6">
+                                <h2 class="text-black">Mocktail</h2>
+                            </div>
+                            <div class="col-6 text-right number">4/9</div>
+                        </div>
+
+                        <div class="burgers">
+                            <div class="row mt-4">
+                                <div class="col-5">
+                                    <h6 class="text-black">Fresh Lime Soda</h6>
+                                </div>
+                                <div class="col-7 text-right">
+                                    <h6 class="text-black">20</h6>
+                                </div>
+                            </div>
+                            <div class="row mt-4">
+                                <div class="col-5">
+                                    <h6 class="text-black">Virgin Mojito</h6>
+                                </div>
+                                <div class="col-7 text-right">
+                                    <h6 class="text-black">30</h6>
+                                </div>
+                            </div>
+                            <div class="row mt-4">
+                                <div class="col-5">
+                                    <h6 class="text-black">Orange Mojito</h6>
+                                </div>
+                                <div class="col-7 text-right">
+                                    <h6 class="text-black">35</h6>
+                                </div>
+                            </div>
+                            <div class="row mt-4">
+                                <div class="col-5">
+                                    <h6 class="text-black">Blue lagoon</h6>
+                                </div>
+                                <div class="col-7 text-right">
+                                    <h6 class="text-black">35</h6>
+                                </div>
+                            </div>
+                            <div class="row mt-4">
+                                <div class="col-5">
+                                    <h6 class="text-black">Aam Panna</h6>
+                                </div>
+                                <div class="col-7 text-right">
+                                    <h6 class="text-black">35</h6>
+                                </div>
+                            </div>
+                            <div class="row mt-4">
+                                <div class="col-5">
+                                    <h6 class="text-black">Red Sunset</h6>
+                                </div>
+                                <div class="col-7 text-right">
+                                    <h6 class="text-black">35</h6>
+                                </div>
+                            </div>
+                            <div class="row mt-4">
+                                <div class="col-5">
+                                    <h6 class="text-black">Spicy Lichi Lemonade</h6>
+                                </div>
+                                <div class="col-7 text-right">
+                                    <h6 class="text-black">35</h6>
+                                </div>
+                            </div>
+                            <div class="row mt-4">
+                                <div class="col-5">
+                                    <h6 class="text-black">Pineapple Lemonade</h6>
+                                </div>
+                                <div class="col-7 text-right">
+                                    <h6 class="text-black">35</h6>
+                                </div>
+                            </div>
+                            <div class="row mt-4">
+                                <div class="col-5">
+                                    <h6 class="text-black">Green Apple Lemonade</h6>
+                                </div>
+                                <div class="col-7 text-right">
+                                    <h6 class="text-black">35</h6>
+                                </div>
+                            </div>
+                            <div class="row mt-4">
+                                <div class="col-5">
+                                    <h6 class="text-black">Strawberry Lemonade</h6>
+                                </div>
+                                <div class="col-7 text-right">
+                                    <h6 class="text-black">35</h6>
+                                </div>
+                            </div>
+                            <div class="row mt-4">
+                                <div class="col-5">
+                                    <h6 class="text-black">Black Current Lemonade</h6>
+                                </div>
+                                <div class="col-7 text-right">
+                                    <h6 class="text-black">35</h6>
+                                </div>
+                            </div>
+                            <div class="row mt-4">
+                                <div class="col-5">
+                                    <h6 class="text-black">Mango Lemonade</h6>
+                                </div>
+                                <div class="col-7 text-right">
+                                    <h6 class="text-black">35</h6>
+                                </div>
+                            </div>
+                            <div class="row mt-4">
+                                <div class="col-5">
+                                    <h6 class="text-black">Masala Cola</h6>
+                                </div>
+                                <div class="col-7 text-right">
+                                    <h6 class="text-black">40</h6>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Mocktail Ends -->
+
 
                 </div>
             </div>
