@@ -16,6 +16,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Cookie&display=swap" rel="stylesheet">
     <title>The Chezzy Slice</title>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-MQD9YQHEKW');
+    </script>
 </head>
 
 <body>
