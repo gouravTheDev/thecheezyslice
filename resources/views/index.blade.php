@@ -145,25 +145,18 @@
                 <span class="subtitle">Gallery</span>
                 <h2 class="mb-5">Photo <strong class="text-primary">Galleries</strong></h2>
                 <div class="row">
-                    <div class="col-md-4 col-sm-12 mb-4">
-                        <a href="images/img_1.jpg" data-fancybox="gallery" class="gal"><img src="images/img_1.jpg" alt="Image" class="img-fluid"></a>
-                    </div>
-                    <div class="col-md-4 col-sm-12 mb-4">
-                        <a href="images/img_2.jpg" data-fancybox="gallery" class="gal"><img src="images/img_2.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="2393861837"></a>
-                    </div>
-                    <div class="col-md-4 col-sm-12 mb-4">
-                        <a href="images/img_1_b.jpg" data-fancybox="gallery" class="gal"><img src="images/img_1_b.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="3364204467"></a>
-                    </div>
-                    <div class="col-md-4 col-sm-12 mb-4">
-                        <a href="images/img_2_b.jpg" data-fancybox="gallery" class="gal"><img src="images/img_2_b.jpg" alt="Image" class="img-fluid"></a>
-                    </div>
-                    <div class="col-md-4 col-sm-12 mb-4">
-                        <a href="images/pizza/pizza4.jpg" data-fancybox="gallery" class="gal"><img src="images/pizza/pizza4.jpg" alt="Image" class="img-fluid"></a>
-                    </div>
-                    <div class="col-md-4 col-sm-12 mb-4">
-                        <a href="images/pizza/pizza3.jpg" data-fancybox="gallery" class="gal"><img src="images/pizza/pizza3.jpg" alt="Image" class="img-fluid"></a>
-                    </div>
-
+                    <?php
+                    $gallery = App\Models\Gallery::all()->sortByDesc('id');
+                    $i = 1;
+                    foreach ($gallery as $image) {
+                        if ($i == 7) break;
+                    ?>
+                        <div class="col-md-4 col-sm-12 mb-4">
+                            <a href="/uploads/gallery/<?= $image->image ?>" data-fancybox="gallery" class="gal"><img src="/uploads/gallery/<?= $image->image ?>" alt="Cheezyslice Image" class="img-fluid"></a>
+                        </div>
+                    <?php $i++;
+                    }
+                    ?>
                 </div>
             </div>
             <div class="col-12 text-center mt-4 pt-4">
@@ -607,33 +600,30 @@
                 <div class="form">
                     <h4>GET IN TOUCH</h4>
                     <h2 class="form-headline">Send us a message</h2>
-                    <form id="submit-form" action="">
+                    <form id="contact-submit-form">
                         <div class="row full-width">
                             <div class="col-md-6 col-sm-12 mt-3">
-                                <input id="name" class="form-input" type="text" placeholder="Your Name*">
+                                <input id="contact-name" class="form-input" type="text" name="name" placeholder="Your Name*">
                                 <small class="name-error"></small>
                             </div>
                             <div class="col-md-6 col-sm-12 mt-3">
-                                <input id="phone" class="form-input" type="number" placeholder="Your Phone*">
+                                <input id="contact-phone" name="phone" class="form-input" type="number" placeholder="Your Phone*">
                                 <small class="name-error"></small>
                             </div>
                             <div class="col-md-6 col-sm-12 mt-3">
-                                <input id="email" class="form-input" type="email" placeholder="Your Email">
+                                <input id="contact-email" name="email" class="form-input" type="email" placeholder="Your Email">
                                 <small class="name-error"></small>
                             </div>
                         </div>
                         <p class="full-width">
-                            <textarea minlength="20" id="message" cols="30" rows="7" placeholder="Your Message*" required></textarea>
+                            <textarea minlength="20" name="message" id="contact-message" cols="30" rows="4" placeholder="Your Message*" required></textarea>
                             <small></small>
                         </p>
-                        <p class="full-width">
-                            <input type="checkbox" id="checkbox" name="checkbox" checked> Yes, I would like to receive communications by call / email about Company's services.
-                        </p>
-                        <p class="full-width">
-                            <input type="submit" class="submit-btn" value="Submit" onclick="checkValidations()">
-                            <button class="reset-btn" onclick="reset()">Reset</button>
-                        </p>
                     </form>
+                    <p class="full-width mt-3">
+                        <button type="button" class="submit-btn submit-contact-btn">Submit</button><br>
+                        <p class="mt-3" style="color: green;" id="contact-msg"></p>
+                    </p>
                 </div>
                 <div class="contacts contact-wrapper">
 
@@ -649,5 +639,6 @@
         </div>
     </div>
 </div>
+
 
 @include('include.footer')

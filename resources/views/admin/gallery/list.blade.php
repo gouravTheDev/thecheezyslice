@@ -41,13 +41,12 @@
                         <input type="file" accept="image/png, image/gif, image/jpeg, image/jpg" class="form-control" id="upload-images" name="images[]" multiple>
                     </div>
                     <div class="form-group text-right mt-3">
-                        <button type="button" class="btn btn-success upload-image-btn">Upload</button>
+                        <!-- <button type="button" class="btn btn-success upload-image-btn">Upload</button> -->
                     </div>
                 </form>
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
+                <button type="button" class="btn btn-success upload-image-btn">Upload</button>
             </div>
         </div>
     </div>

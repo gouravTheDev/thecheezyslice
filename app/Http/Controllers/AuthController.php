@@ -58,18 +58,6 @@ class AuthController extends Controller
         return redirect()->back()->with('success', "You have entered wrong credentials");
     }
 
-    // public function postRegister(Request $request)
-    // {  
-    //     // dd($request->all());         
-     
-    //     $data = array('name' => 'Cheezyslice Admin', 'email' => 'admin@thecheezyslice.com', 'password' => "Fgta%$128Yag#");
-    //     // dd($data);
-    //     $data['password']=Hash::make($data['password']);
-    //     $check = User::create($data);
-
-    //     return Redirect::to("/admin/login")->with('success','Login to continue'); 
-    // }
-
     public function logout() {
         FacadesSession::flush();
         Auth::logout();

@@ -128,6 +128,42 @@
         k = k - 1;
         owls.trigger("to.owl.carousel", [k, 500]);
     });
+
+    // Send mail Function
+    $(".submit-contact-btn").on("click", function() {
+        var datastring = $("#contact-submit-form").serialize();
+        console.log(datastring);
+
+        if(!$('#contact-name').val() || !$('#contact-phone').val() || !$('#contact-message').val()){
+            return;
+        }
+
+        console.log($('#contact-name').val())
+
+        $.ajax({
+            type: 'POST',
+            url: '/contact',
+            headers: {
+                'X-CSRF-TOKEN': $('meta[name="csrf_token"]').attr('content')
+            },
+            data: JSON.stringify({
+                name: $('#contact-name').val() ? $('#contact-name').val() : '',
+                phone: $('#contact-phone').val() ? $('#contact-phone').val() : '',
+                email: $('#contact-email').val() ? $('#contact-email').val() : '',
+                message: $('#contact-message').val() ? $('#contact-message').val() : ''
+            }),
+            processData: false,
+            contentType: "application/json",
+            error: function(res) {
+                console.log("error", res);
+                // location.reload();
+            },
+            success: function(res) {
+                $("#contact-submit-form")[0].reset();
+                $("#contact-msg").html("Contact form submitted successfully! We will get back to you soon!")
+            }
+        });
+    })
 </script>
 </body>
 

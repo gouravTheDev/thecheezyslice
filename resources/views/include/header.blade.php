@@ -18,6 +18,8 @@
     <title>The Chezzy Slice</title>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-MQD9YQHEKW"></script>
+
+    <meta name="csrf_token" content="{{ csrf_token() }}" />
     <script>
         window.dataLayer = window.dataLayer || [];
 

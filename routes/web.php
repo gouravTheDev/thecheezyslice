@@ -26,6 +26,8 @@ Route::get('/gallery', function () {
     return view('gallery');
 });
 
+Route::post('/contact', 'App\Http\Controllers\GeneralController@contact'); 
+
 // Admin routes
 Route::get('/admin/', 'App\Http\Controllers\AuthController@index');
 
@@ -39,7 +41,6 @@ Route::get('/admin/dashboard', 'App\Http\Controllers\AuthController@index');
 Route::get('/admin/gallery', 'App\Http\Controllers\GalleryController@list'); 
 Route::post('/admin/upload-image', 'App\Http\Controllers\GalleryController@upload'); 
 Route::post('/admin/delete-image', 'App\Http\Controllers\GalleryController@delete'); 
-
 Route::get('/admin/logout', 'App\Http\Controllers\AuthController@logout');
 
 

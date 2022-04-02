@@ -32,7 +32,7 @@ class GalleryController extends Controller
                 $ext = $image->getClientOriginalExtension();
                 $fileName = $image->getClientOriginalName();
                 if ($ext == 'png' || $ext == 'jpg' || $ext == 'jpeg' || $ext == 'webp') {
-                    $imageName = time() . $fileName;
+                    $imageName = time() . "-" . rand(10, 100) . "-"  . $fileName;
                     $destinationPath = public_path('/uploads/gallery');
                     $image->move($destinationPath, $imageName);
 
