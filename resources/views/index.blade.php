@@ -8,7 +8,7 @@
                         <span class="caption" data-aos="fade-up" data-aos-delay="0">Enjoy Your Healthy Delicious Meal</span>
                         <h1 class="mb-4 heading text-white" data-aos="fade-up" data-aos-delay="100" style="font-family: 'Balsamiq Sans', cursive;">Pizza to fill your soul</h1>
                         <div class="mb-4 text-white desc" data-aos="fade-up" data-aos-delay="200">
-                            We are baking pizzas sp good they melt in your mouth! <br> Book online or call 8621071620.</p>
+                            We are baking pizzas sp good they melt in your mouth! <br> Book online or call <a href="tel:7980987521" style="text-decoration: none;">7980987521</a></p>
                         </div>
                         <p class="mb-0" data-aos="fade-up" data-aos-delay="300"><a href="#" class="btn btn-primary">Explore now</a></p>
                     </div>
