@@ -6,85 +6,45 @@ use App\Models\Gallery;
 use Illuminate\Support\Facades\File;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
+use Illuminate\Support\Facades\Auth;
 
 class GalleryController extends Controller
 {
     public function list()
     {
-        $gallery = Gallery::all()->sortBy('created_at');
-        return view('admin.gallery.list', ['gallery' => $gallery]);
+        if (Auth::check()) {
+            $gallery = Gallery::all()->sortByDesc('id');
+            return view('admin.gallery.list', ['gallery' => $gallery]);
+        } else {
+            return view('admin.login');
+        }
     }
 
-    public function create(Request $request)
+    public function upload(Request $request)
     {
-        $data = $request->all();
-        $title = $data['title'] ? $data['title'] : NULL;
         $imageName = '';
 
-        if ($request->hasFile('image')) {
-            $image = $request->file('image');
-            $ext = $image->getClientOriginalExtension();
-            $fileName = $image->getClientOriginalName();
-            if ($ext == 'png' || $ext == 'jpg' || $ext == 'jpeg' || $ext == 'webp') {
-                $imageName = time() . $fileName;
-                $destinationPath = public_path('/uploads/gallery');
-                $image->move($destinationPath, $imageName);
+        if ($request->hasFile('images')) {
+            $files = $request->file('images');
 
-                $savedGallery = Gallery::insert(array(
-                    'title' => $title,
-                    'image' => $imageName
-                ));
+            foreach ($files as $image) {
 
-                return response()->json(['status' => 200, 'data' => $savedGallery, 'message' => "Gallery saved successfully"], 200);
-            } else {
-                return response()->json(['status' => 201, 'data' => null, 'message' => "Please upload a valid image"], 201);
-            }
-        } else {
-            return response()->json(['status' => 201, 'data' => null, 'message' => "Please upload a file"], 201);
-        }
-    }
+                $ext = $image->getClientOriginalExtension();
+                $fileName = $image->getClientOriginalName();
+                if ($ext == 'png' || $ext == 'jpg' || $ext == 'jpeg' || $ext == 'webp') {
+                    $imageName = time() . $fileName;
+                    $destinationPath = public_path('/uploads/gallery');
+                    $image->move($destinationPath, $imageName);
 
-    public function update(Request $request)
-    {
-        $data = $request->all();
-
-        $galleryId = $data['id'];
-        $title = "";
-
-        // Get DB record
-        $gallery = Gallery::find($galleryId);
-
-        if (isset($data['title']) && !empty($data['title'])) {
-            $title = $data['title'];
-        } else {
-            $title = $gallery->title;
-        }
-
-        $gallery->title = $title;
-        $imageName = $gallery->image;
-
-        if ($request->hasFile('image')) {
-            // Delete the old image
-            $image_path = "/uploads/gallery/" . $imageName;
-            if (File::exists($image_path)) {
-                File::delete($image_path);
+                    $savedGallery = Gallery::insert(array(
+                        'image' => $imageName
+                    ));
+                } else {
+                    continue;
+                }
             }
 
-            $image = $request->file('image');
-            $ext = $image->getClientOriginalExtension();
-            $fileName = $image->getClientOriginalName();
-            if ($ext == 'png' || $ext == 'jpg' || $ext == 'jpeg' || $ext == 'webp') {
-                $imageName = time() . $fileName;
-                $destinationPath = public_path('/uploads/gallery');
-                $image->move($destinationPath, $imageName);
-
-                $gallery->image = $imageName;
-                $gallery->save();
-
-                return response()->json(['status' => 200, 'data' => $gallery, 'message' => "Image updated successfully"], 200);
-            } else {
-                return response()->json(['status' => 201, 'data' => null, 'message' => "Please upload a valid image"], 201);
-            }
+            return response()->json(['status' => 200, 'message' => "Image saved successfully"], 200);
         } else {
             return response()->json(['status' => 201, 'data' => null, 'message' => "Please upload a file"], 201);
         }
@@ -93,7 +53,8 @@ class GalleryController extends Controller
     public function delete(Request $request)
     {
         $data = $request->all();
-        $galleryId = $data['id'];
+        // var_dump($data);
+        $galleryId = $data['image_id'];
 
         // Get DB record
         $gallery = Gallery::find($galleryId);

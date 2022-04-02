@@ -10,22 +10,10 @@
       <li class="nav-item active">
         <a class="btn btn-warning ml-4" href="/admin/gallery">Gallery </a>
       </li>
-      <li class="nav-item active">
-        <a class="btn btn-warning ml-3" href="#">Menu Type</a>
-      </li>
-      <li class="nav-item active">
-        <a class="btn btn-warning ml-3" href="#">Menu </a>
-      </li>
-      <li class="nav-item active">
-        <a class="btn btn-warning ml-3" href="#">Contacts </a>
-      </li>
-      <li class="nav-item active">
-        <a class="btn btn-warning ml-3" href="#">Others </a>
-      </li>
     </ul>
     <ul class="navbar-nav ml-auto">
       <li class="nav-item active">
-        <a class="btn btn-outline-danger ml-3" href="#">Logout</a>
+        <a class="btn btn-outline-danger ml-3" href="/admin/logout">Logout</a>
       </li>
     </ul>
   </div>

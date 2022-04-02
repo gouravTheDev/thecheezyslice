@@ -11,6 +11,8 @@ class Gallery extends Model
 
     protected $table = 'galleries';
 
+    public $timestamps = true;
+
     protected $fillable = [
         'image',
         'created_at',

@@ -11,6 +11,18 @@
             <button class="btn btn-primary" data-toggle="modal" data-target="#uploadImageModal">Upload New Image</button>
         </div>
     </div>
+    <div class="row mt-4">
+        <?php
+        foreach ($gallery as $image) { ?>
+            <div class="col-4 my-1">
+                <div class="text-right">
+                    <button class="btn btn-danger btn-sm mb-1 delete-image" img-id="<?= $image->id ?>">&#10060;</button><br>
+                </div>
+                <img class="shadow img-responsive" src="/uploads/gallery/<?= $image->image ?>" alt="" style="width: 100%; height: 80%;">
+            </div>
+        <?php }
+        ?>
+    </div>
 </div>
 <!-- Modal -->
 <div class="modal fade" id="uploadImageModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -44,39 +56,57 @@
 <script>
     $('.upload-image-btn').on('click', function(e) {
         console.log("hello")
-        var formdata = new FormData();
+        var formData = new FormData();
         jQuery.each($('#upload-images')[0].files, function(i, file) {
-            formdata.append('images[' + i + ']', file);
+            formData.append('images[' + i + ']', file);
         });
 
         $.ajax({
             type: 'POST',
             url: '/admin/upload-image',
+            headers: {
+                'X-CSRF-TOKEN': $('meta[name="csrf_token"]').attr('content')
+            },
             data: formData,
+            processData: false,
+            contentType: false,
             error: function(res) {
                 console.log("error", res);
-                // $('#ticket-modal').modal('hide');
+                location.reload();
             },
             success: function(res) {
-                console.log(res);
-                // if (res.error != '') {
-                //     window.FlashMessage.error(res.error, {
-                //         progress: true,
-                //         timeout: 6000
-                //     });
-                // } else {
-                //     window.FlashMessage.success(res.success, {
-                //         progress: true,
-                //         timeout: 6000
-                //     });
-                // }
-                // $('#ticket-modal').modal('hide');
-                // $.get('/support/tickets', function(htmldata) {
-                //     $('.contentDiv').html(htmldata);
-                // });
+                location.reload();
             }
         });
     });
+
+    $('.delete-image').on("click", function() {
+        let imgId = $(this).attr('img-id');
+        if (confirm('Are you sure you want to delete this image?')) {
+            $.ajax({
+                type: 'POST',
+                url: '/admin/delete-image',
+                headers: {
+                    'X-CSRF-TOKEN': $('meta[name="csrf_token"]').attr('content')
+                },
+                data: JSON.stringify({
+                    image_id: imgId,
+                }),
+                processData: false,
+                contentType: 'application/json',
+                error: function(res) {
+                    console.log("error", res);
+                    location.reload();
+                },
+                success: function(res) {
+                    console.log("deleted");
+                    location.reload();
+                }
+            });
+        } else {
+            console.log("not delete");
+        }
+    })
 </script>
 
 
