@@ -4,15 +4,7 @@
     <span class="subtitle">Gallery</span>
     <h2 class="mb-5">Photo <strong class="text-primary">Galleries</strong></h2>
     <div class="row">
-        <?php
-        $gallery = App\Models\Gallery::all()->sortByDesc('id');
-        foreach ($gallery as $image) { ?>
-            <div class="col-md-4 col-sm-12 mb-4">
-                <a href="/uploads/gallery/<?= $image->image ?>" data-fancybox="gallery" class="gal"><img src="/uploads/gallery/<?= $image->image ?>" alt="Cheezyslice Image" class="img-fluid"></a>
-            </div>
-        <?php }
-        ?>
-        <!-- <div class="col-md-4 col-sm-12 mb-4">
+        <div class="col-md-4 col-sm-12 mb-4">
             <a href="images/img_2.jpg" data-fancybox="gallery" class="gal"><img src="images/img_2.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="2393861837"></a>
         </div>
         <div class="col-md-4 col-sm-12 mb-4">
@@ -26,7 +18,7 @@
         </div>
         <div class="col-md-4 col-sm-12 mb-4">
             <a href="images/pizza/pizza3.jpg" data-fancybox="gallery" class="gal"><img src="images/pizza/pizza3.jpg" alt="Image" class="img-fluid"></a>
-        </div> -->
+        </div>
 
     </div>
 </div>

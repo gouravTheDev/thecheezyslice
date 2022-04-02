@@ -145,18 +145,22 @@
                 <span class="subtitle">Gallery</span>
                 <h2 class="mb-5">Photo <strong class="text-primary">Galleries</strong></h2>
                 <div class="row">
-                    <?php
-                    $gallery = App\Models\Gallery::all()->sortByDesc('id');
-                    $i = 1;
-                    foreach ($gallery as $image) {
-                        if ($i == 7) break;
-                    ?>
-                        <div class="col-md-4 col-sm-12 mb-4">
-                            <a href="/uploads/gallery/<?= $image->image ?>" data-fancybox="gallery" class="gal"><img src="/uploads/gallery/<?= $image->image ?>" alt="Cheezyslice Image" class="img-fluid"></a>
-                        </div>
-                    <?php $i++;
-                    }
-                    ?>
+                    <div class="col-md-4 col-sm-12 mb-4">
+                        <a href="images/img_2.jpg" data-fancybox="gallery" class="gal"><img src="images/img_2.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="2393861837"></a>
+                    </div>
+                    <div class="col-md-4 col-sm-12 mb-4">
+                        <a href="images/img_1_b.jpg" data-fancybox="gallery" class="gal"><img src="images/img_1_b.jpg" alt="Image" class="img-fluid" data-pagespeed-url-hash="3364204467"></a>
+                    </div>
+                    <div class="col-md-4 col-sm-12 mb-4">
+                        <a href="images/img_2_b.jpg" data-fancybox="gallery" class="gal"><img src="images/img_2_b.jpg" alt="Image" class="img-fluid"></a>
+                    </div>
+                    <div class="col-md-4 col-sm-12 mb-4">
+                        <a href="images/pizza/pizza4.jpg" data-fancybox="gallery" class="gal"><img src="images/pizza/pizza4.jpg" alt="Image" class="img-fluid"></a>
+                    </div>
+                    <div class="col-md-4 col-sm-12 mb-4">
+                        <a href="images/pizza/pizza3.jpg" data-fancybox="gallery" class="gal"><img src="images/pizza/pizza3.jpg" alt="Image" class="img-fluid"></a>
+                    </div>
+
                 </div>
             </div>
             <div class="col-12 text-center mt-4 pt-4">
@@ -622,7 +626,7 @@
                     </form>
                     <p class="full-width mt-3">
                         <button type="button" class="submit-btn submit-contact-btn">Submit</button><br>
-                        <p class="mt-3" style="color: green;" id="contact-msg"></p>
+                    <p class="mt-3" style="color: green;" id="contact-msg"></p>
                     </p>
                 </div>
                 <div class="contacts contact-wrapper">
