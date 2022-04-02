@@ -16,6 +16,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Balsamiq+Sans&family=Cookie&display=swap" rel="stylesheet">
     <title>The Chezzy Slice</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-MQD9YQHEKW"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
 
