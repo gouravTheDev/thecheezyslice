@@ -64,7 +64,6 @@
                     </li>
                     <li><a href="#" class="d-flex align-items-center"> <span>Burger</span></a></li>
                     <li><a href="#" class="d-flex align-items-center"> <span>Sandwich</span></a></li>
-                    <li><a href="#" class="d-flex align-items-center"> <span>Fries</span></a></li>
                     <li><a href="#" class="d-flex align-items-center"> <span>Mocktail</span></a></li>
                     <li><a href="#" class="d-flex align-items-center"> <span>Desert</span></a></li>
                     <li><a href="#" class="d-flex align-items-center"> <span>Combo</span></a></li>
@@ -91,9 +90,14 @@
                             </div>
                             <div class="col-6 text-right">
                                 <div class="row">
-                                    <div class="col-12">
+                                    <div class="col-6">
                                         <p class="text-black">
-                                            <span>8 inches</span> <br><span>(Normal Crust/Cheese Burst)</span>
+                                            <span style="font-size: 0.8em;">8 inches</span> <br><span style="font-size: 0.75em;">(Normal Crust/Cheese Burst)</span>
+                                        </p>
+                                    </div>
+                                    <div class="col-6">
+                                        <p class="text-black">
+                                            <span style="font-size: 0.8em;">12 inches</span> <br> <span style="font-size: 0.75em;">(Normal Crust)</span>
                                         </p>
                                     </div>
                                 </div>
@@ -103,36 +107,45 @@
                         <div class="pizzas">
                             <div class="row mt-4">
                                 <div class="col-6">
-                                    <h6 class="text-black">Golden delight Chicken Pizza</h6>
+                                    <h6 class="text-black">Crispy Chicken Pizza</h6>
                                 </div>
                                 <div class="col-6 text-right">
                                     <div class="row">
-                                        <div class="col-12">
-                                            <h6 class="text-black">115 / 160</h6>
+                                        <div class="col-6">
+                                            <h6 class="text-black">90 / 130</h6>
+                                        </div>
+                                        <div class="col-6">
+                                            <h6 class="text-black">180</h6>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="row mt-3">
                                 <div class="col-6">
-                                    <h6 class="text-black">Chicken Fiesta Pizza </h6>
+                                    <h6 class="text-black">Spicy Chicken Pizza</h6>
                                 </div>
                                 <div class="col-6 text-right">
                                     <div class="row">
-                                        <div class="col-12">
-                                            <h6 class="text-black">120 / 170</h6>
+                                        <div class="col-6">
+                                            <h6 class="text-black">90/ 130</h6>
+                                        </div>
+                                        <div class="col-6">
+                                            <h6 class="text-black">180</h6>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="row mt-3">
                                 <div class="col-6">
-                                    <h6 class="text-black">Creamy Chicken Pasta Pizza</h6>
+                                    <h6 class="text-black">Spicy Chicken Pasta Pizza</h6>
                                 </div>
                                 <div class="col-6 text-right">
                                     <div class="row">
-                                        <div class="col-12">
-                                            <h6 class="text-black">130 / 185</h6>
+                                        <div class="col-6">
+                                            <h6 class="text-black">115 / 150</h6>
+                                        </div>
+                                        <div class="col-6">
+                                            <h6 class="text-black">199</h6>
                                         </div>
                                     </div>
                                 </div>
@@ -143,44 +156,56 @@
                                 </div>
                                 <div class="col-6 text-right">
                                     <div class="row">
-                                        <div class="col-12">
-                                            <h6 class="text-black">140 / 195</h6>
+                                        <div class="col-6">
+                                            <h6 class="text-black">125 / 165</h6>
+                                        </div>
+                                        <div class="col-6">
+                                            <h6 class="text-black">210</h6>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="row mt-3">
                                 <div class="col-6">
-                                    <h6 class="text-black">Salami Chicken Pizza</h6>
+                                    <h6 class="text-black">Pepperoni Chicken Pizza</h6>
                                 </div>
                                 <div class="col-6 text-right">
                                     <div class="row">
-                                        <div class="col-12">
-                                            <h6 class="text-black">155 / 210</h6>
+                                        <div class="col-6">
+                                            <h6 class="text-black">130 / 175</h6>
+                                        </div>
+                                        <div class="col-6">
+                                            <h6 class="text-black">230</h6>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="row mt-3">
                                 <div class="col-6">
-                                    <h6 class="text-black">Double chicken Pasta Pizza</h6>
+                                    <h6 class="text-black">Pepperoni Pasta Pizza</h6>
                                 </div>
                                 <div class="col-6 text-right">
                                     <div class="row">
-                                        <div class="col-12">
-                                            <h6 class="text-black">185 / 240</h6>
+                                        <div class="col-6">
+                                            <h6 class="text-black">145 / 185</h6>
+                                        </div>
+                                        <div class="col-6">
+                                            <h6 class="text-black">245</h6>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="row mt-3">
                                 <div class="col-6">
-                                    <h6 class="text-black">Flooded with cheese and chicken</h6>
+                                    <h6 class="text-black">Chef's Special Pizza</h6>
                                 </div>
                                 <div class="col-6 text-right">
                                     <div class="row">
-                                        <div class="col-12">
-                                            <h6 class="text-black">350</h6>
+                                        <div class="col-6">
+                                            <h6 class="text-black">--</h6>
+                                        </div>
+                                        <div class="col-6">
+                                            <h6 class="text-black">320</h6>
                                         </div>
                                     </div>
                                 </div>
@@ -197,60 +222,75 @@
                         <div class="pizzas">
                             <div class="row mt-4">
                                 <div class="col-6">
-                                    <h6 class="text-black">Margherita tomato Pizza </h6>
+                                    <h6 class="text-black">Margherita Pizza</h6>
                                 </div>
                                 <div class="col-6 text-right">
                                     <div class="row">
-                                        <div class="col-12">
-                                            <h6 class="text-black">99 / 130</h6>
+                                        <div class="col-6">
+                                            <h6 class="text-black">65 / 110</h6>
+                                        </div>
+                                        <div class="col-6">
+                                            <h6 class="text-black">130</h6>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="row mt-3">
                                 <div class="col-6">
-                                    <h6 class="text-black">Cheese & Golden Corn Pizza</h6>
+                                    <h6 class="text-black">Cheese & Corn Pizza</h6>
                                 </div>
                                 <div class="col-6 text-right">
                                     <div class="row">
-                                        <div class="col-12">
-                                            <h6 class="text-black">105/ 145</h6>
+                                        <div class="col-6">
+                                            <h6 class="text-black">70/ 120</h6>
+                                        </div>
+                                        <div class="col-6">
+                                            <h6 class="text-black">135</h6>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="row mt-3">
                                 <div class="col-6">
-                                    <h6 class="text-black">Spicy Paradise Pizza </h6>
+                                    <h6 class="text-black">Spicy Chilli Pizza</h6>
                                 </div>
                                 <div class="col-6 text-right">
                                     <div class="row">
-                                        <div class="col-12">
-                                            <h6 class="text-black">110 / 155</h6>
+                                        <div class="col-6">
+                                            <h6 class="text-black">65 / 120</h6>
+                                        </div>
+                                        <div class="col-6">
+                                            <h6 class="text-black">130</h6>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="row mt-3">
                                 <div class="col-6">
-                                    <h6 class="text-black">Farmhouse Mushroom Pizza</h6>
+                                    <h6 class="text-black">Mushroom Pizza</h6>
                                 </div>
                                 <div class="col-6 text-right">
                                     <div class="row">
-                                        <div class="col-12">
-                                            <h6 class="text-black">115 / 165</h6>
+                                        <div class="col-6">
+                                            <h6 class="text-black">80 / 140</h6>
+                                        </div>
+                                        <div class="col-6">
+                                            <h6 class="text-black">165</h6>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="row mt-3">
                                 <div class="col-6">
-                                    <h6 class="text-black">Creamy Paneer Pizza</h6>
+                                    <h6 class="text-black">Paneer Pizza</h6>
                                 </div>
                                 <div class="col-6 text-right">
                                     <div class="row">
-                                        <div class="col-12">
-                                            <h6 class="text-black">140 / 198</h6>
+                                        <div class="col-6">
+                                            <h6 class="text-black">95 / 155</h6>
+                                        </div>
+                                        <div class="col-6">
+                                            <h6 class="text-black">175</h6>
                                         </div>
                                     </div>
                                 </div>
@@ -261,8 +301,11 @@
                                 </div>
                                 <div class="col-6 text-right">
                                     <div class="row">
-                                        <div class="col-12">
-                                            <h6 class="text-black">125 / 180</h6>
+                                        <div class="col-6">
+                                            <h6 class="text-black">80 / 125</h6>
+                                        </div>
+                                        <div class="col-6">
+                                            <h6 class="text-black">140</h6>
                                         </div>
                                     </div>
                                 </div>
@@ -295,7 +338,7 @@
                                     <h6 class="text-black">Chicken Patty Burger</h6>
                                 </div>
                                 <div class="col-6 text-right">
-                                    <h6 class="text-black">65</h6>
+                                    <h6 class="text-black">50</h6>
                                 </div>
                             </div>
                             <div class="row mt-3">
@@ -303,7 +346,7 @@
                                     <h6 class="text-black">Grill Barbeque chicken Burger</h6>
                                 </div>
                                 <div class="col-6 text-right">
-                                    <h6 class="text-black">105</h6>
+                                    <h6 class="text-black">65</h6>
                                 </div>
                             </div>
                             <div class="row mt-3">
@@ -311,7 +354,7 @@
                                     <h6 class="text-black">Special jumbo chicken Burger</h6>
                                 </div>
                                 <div class="col-6 text-right">
-                                    <h6 class="text-black">130</h6>
+                                    <h6 class="text-black">99</h6>
                                 </div>
                             </div>
                         </div>
@@ -330,7 +373,7 @@
                                     <h6 class="text-black">Veg Patty Burger</h6>
                                 </div>
                                 <div class="col-6 text-right">
-                                    <h6 class="text-black">50</h6>
+                                    <h6 class="text-black">35</h6>
                                 </div>
                             </div>
                         </div>
@@ -351,18 +394,18 @@
                         <div class="burgers">
                             <div class="row mt-4">
                                 <div class="col-6">
-                                    <h6 class="text-black">Chicken Cheese Sandwich (Single / Double)</h6>
+                                    <h6 class="text-black">Chicken Sandwich</h6>
                                 </div>
                                 <div class="col-6 text-right">
-                                    <h6 class="text-black">50 / 95</h6>
+                                    <h6 class="text-black">45</h6>
                                 </div>
                             </div>
                             <div class="row mt-3">
                                 <div class="col-6">
-                                    <h6 class="text-black">Veg Cheese Sandwich (Single / Double)</h6>
+                                    <h6 class="text-black">Veg Sandwich</h6>
                                 </div>
                                 <div class="col-6 text-right">
-                                    <h6 class="text-black">40 / 75</h6>
+                                    <h6 class="text-black">30</h6>
                                 </div>
                             </div>
                         </div>
@@ -370,47 +413,6 @@
                     </div>
 
                     <!-- Sandwich Ends -->
-
-                    <!-- Fries Starts -->
-
-                    <div class="item">
-                        <div class="row align-items-center mb-4">
-                            <div class="col-6">
-                                <h2 class="text-black">Fries</h2>
-                            </div>
-                            <div class="col-6 text-right number">3/9</div>
-                        </div>
-
-                        <div class="burgers">
-                            <div class="row mt-4">
-                                <div class="col-6">
-                                    <h6 class="text-black">Nuggets</h6>
-                                </div>
-                                <div class="col-6 text-right">
-                                    <h6 class="text-black">79</h6>
-                                </div>
-                            </div>
-                            <div class="row mt-3">
-                                <div class="col-6">
-                                    <h6 class="text-black">Chicken Popcorn</h6>
-                                </div>
-                                <div class="col-6 text-right">
-                                    <h6 class="text-black">79</h6>
-                                </div>
-                            </div>
-                            <div class="row mt-3">
-                                <div class="col-6">
-                                    <h6 class="text-black">French Fries</h6>
-                                </div>
-                                <div class="col-6 text-right">
-                                    <h6 class="text-black">59</h6>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <!-- Fries Ends -->
 
                     <!-- Mocktail Starts -->
 
@@ -428,7 +430,7 @@
                                     <h6 class="text-black">Fresh Lime Soda</h6>
                                 </div>
                                 <div class="col-6 text-right">
-                                    <h6 class="text-black">50</h6>
+                                    <h6 class="text-black">20</h6>
                                 </div>
                             </div>
                             <div class="row mt-4">
@@ -436,7 +438,7 @@
                                     <h6 class="text-black">Virgin Mojito</h6>
                                 </div>
                                 <div class="col-6 text-right">
-                                    <h6 class="text-black">65</h6>
+                                    <h6 class="text-black">30</h6>
                                 </div>
                             </div>
                             <div class="row mt-4">
@@ -444,7 +446,7 @@
                                     <h6 class="text-black">Orange Mojito</h6>
                                 </div>
                                 <div class="col-6 text-right">
-                                    <h6 class="text-black">50</h6>
+                                    <h6 class="text-black">35</h6>
                                 </div>
                             </div>
                             <div class="row mt-4">
@@ -452,7 +454,7 @@
                                     <h6 class="text-black">Blue lagoon</h6>
                                 </div>
                                 <div class="col-6 text-right">
-                                    <h6 class="text-black">65</h6>
+                                    <h6 class="text-black">35</h6>
                                 </div>
                             </div>
                             <div class="row mt-4">
@@ -460,7 +462,7 @@
                                     <h6 class="text-black">Aam Panna</h6>
                                 </div>
                                 <div class="col-6 text-right">
-                                    <h6 class="text-black">50</h6>
+                                    <h6 class="text-black">35</h6>
                                 </div>
                             </div>
                             <div class="row mt-4">
@@ -468,7 +470,7 @@
                                     <h6 class="text-black">Red Sunset</h6>
                                 </div>
                                 <div class="col-6 text-right">
-                                    <h6 class="text-black">50</h6>
+                                    <h6 class="text-black">35</h6>
                                 </div>
                             </div>
                             <div class="row mt-4">
@@ -476,7 +478,7 @@
                                     <h6 class="text-black">Spicy Lichi Lemonade</h6>
                                 </div>
                                 <div class="col-6 text-right">
-                                    <h6 class="text-black">50</h6>
+                                    <h6 class="text-black">35</h6>
                                 </div>
                             </div>
                             <div class="row mt-4">
@@ -484,7 +486,7 @@
                                     <h6 class="text-black">Pineapple Lemonade</h6>
                                 </div>
                                 <div class="col-6 text-right">
-                                    <h6 class="text-black">50</h6>
+                                    <h6 class="text-black">35</h6>
                                 </div>
                             </div>
                             <div class="row mt-4">
@@ -492,7 +494,7 @@
                                     <h6 class="text-black">Green Apple Lemonade</h6>
                                 </div>
                                 <div class="col-6 text-right">
-                                    <h6 class="text-black">50</h6>
+                                    <h6 class="text-black">35</h6>
                                 </div>
                             </div>
                             <div class="row mt-4">
@@ -500,7 +502,7 @@
                                     <h6 class="text-black">Strawberry Lemonade</h6>
                                 </div>
                                 <div class="col-6 text-right">
-                                    <h6 class="text-black">50</h6>
+                                    <h6 class="text-black">35</h6>
                                 </div>
                             </div>
                             <div class="row mt-4">
@@ -508,7 +510,7 @@
                                     <h6 class="text-black">Black Current Lemonade</h6>
                                 </div>
                                 <div class="col-6 text-right">
-                                    <h6 class="text-black">50</h6>
+                                    <h6 class="text-black">35</h6>
                                 </div>
                             </div>
                             <div class="row mt-4">
@@ -516,7 +518,7 @@
                                     <h6 class="text-black">Mango Lemonade</h6>
                                 </div>
                                 <div class="col-6 text-right">
-                                    <h6 class="text-black">50</h6>
+                                    <h6 class="text-black">35</h6>
                                 </div>
                             </div>
                             <div class="row mt-4">
@@ -524,7 +526,7 @@
                                     <h6 class="text-black">Masala Cola</h6>
                                 </div>
                                 <div class="col-6 text-right">
-                                    <h6 class="text-black">70</h6>
+                                    <h6 class="text-black">40</h6>
                                 </div>
                             </div>
 
@@ -551,7 +553,7 @@
                                     <h6 class="text-black">Hot brownie</h6>
                                 </div>
                                 <div class="col-6 text-right">
-                                    <h6 class="text-black">75</h6>
+                                    <h6 class="text-black">50</h6>
                                 </div>
                             </div>
                             <div class="row mt-3">
@@ -559,7 +561,7 @@
                                     <h6 class="text-black">Hot Brownie with Ice-cream</h6>
                                 </div>
                                 <div class="col-6 text-right">
-                                    <h6 class="text-black">110</h6>
+                                    <h6 class="text-black">70</h6>
                                 </div>
                             </div>
                         </div>
@@ -584,15 +586,7 @@
                                     <h6 class="text-black">1 * 8-inch cheese and corn pizza, 1 * veg patty burger, 1 * fresh lime soda</h6>
                                 </div>
                                 <div class="col-4 text-right">
-                                    <h6 class="text-black">190</h6>
-                                </div>
-                            </div>
-                            <div class="row mt-4">
-                                <div class="col-8">
-                                    <h6 class="text-black">1 * 8-inch cheese and corn pizza, 1 * veg patty burger, 1 * fresh lime soda</h6>
-                                </div>
-                                <div class="col-4 text-right">
-                                    <h6 class="text-black">190</h6>
+                                    <h6 class="text-black">120</h6>
                                 </div>
                             </div>
                             <div class="row mt-4">

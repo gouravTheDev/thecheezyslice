@@ -55,7 +55,7 @@
 
                     Copyright &copy;<script>
                         document.write(new Date().getFullYear());
-                    </script> All rights reserved | Designed and Developed by <a href="codewithbogo.in">Code with Bogo</a> </a>
+                    </script> All rights reserved | The Cheezy Slice</a> </a>
                 </p>
             </div>
         </div>
