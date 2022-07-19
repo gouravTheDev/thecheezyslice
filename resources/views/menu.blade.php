@@ -56,7 +56,8 @@
                         </a>
                     </div>
                 </div>
-                <ul class="list-unstyled untree_co-tab-nav menu-item text-center d-none d-md-block d-lg-block d-xl-block d-sm-block">
+                <ul
+                    class="list-unstyled untree_co-tab-nav menu-item text-center d-none d-md-block d-lg-block d-xl-block d-sm-block">
                     <li class="active text-center">
                         <a href="#" class="d-flex align-items-center">
                             <span class="text-center">Pizza</span>
@@ -83,7 +84,7 @@
                             <div class="col-6">
                                 <h2 class="text-black">Pizza</h2>
                             </div>
-                            <div class="col-6 text-right number">1/9</div>
+                            <div class="col-6 text-right number">1/8</div>
                         </div>
                         <div class="row">
                             <div class="col-6">
@@ -279,7 +280,7 @@
                             <div class="col-6">
                                 <h2 class="text-black">Burger</h2>
                             </div>
-                            <div class="col-6 text-right number">2/9</div>
+                            <div class="col-6 text-right number">2/8</div>
                         </div>
                         <div class="row">
                             <div class="col-6">
@@ -345,7 +346,7 @@
                             <div class="col-6">
                                 <h2 class="text-black">Sandwich</h2>
                             </div>
-                            <div class="col-6 text-right number">3/9</div>
+                            <div class="col-6 text-right number">3/8</div>
                         </div>
 
                         <div class="burgers">
@@ -378,7 +379,7 @@
                             <div class="col-6">
                                 <h2 class="text-black">Fries</h2>
                             </div>
-                            <div class="col-6 text-right number">3/9</div>
+                            <div class="col-6 text-right number">4/8</div>
                         </div>
 
                         <div class="burgers">
@@ -419,7 +420,7 @@
                             <div class="col-6">
                                 <h2 class="text-black">Mocktail</h2>
                             </div>
-                            <div class="col-6 text-right number">4/9</div>
+                            <div class="col-6 text-right number">5/8</div>
                         </div>
 
                         <div class="burgers">
@@ -542,7 +543,7 @@
                             <div class="col-6">
                                 <h2 class="text-black">Desert</h2>
                             </div>
-                            <div class="col-6 text-right number">5/9</div>
+                            <div class="col-6 text-right number">6/8</div>
                         </div>
 
                         <div class="burgers">
@@ -575,13 +576,14 @@
                             <div class="col-6">
                                 <h2 class="text-black">Combo</h2>
                             </div>
-                            <div class="col-6 text-right number">6/9</div>
+                            <div class="col-6 text-right number">7/8</div>
                         </div>
 
                         <div class="burgers">
                             <div class="row mt-4">
                                 <div class="col-8">
-                                    <h6 class="text-black">1 * 8-inch cheese and corn pizza, 1 * veg patty burger, 1 * fresh lime soda</h6>
+                                    <h6 class="text-black">1 * 8-inch cheese and corn pizza, 1 * veg patty burger, 1 *
+                                        fresh lime soda</h6>
                                 </div>
                                 <div class="col-4 text-right">
                                     <h6 class="text-black">190</h6>
@@ -589,26 +591,47 @@
                             </div>
                             <div class="row mt-4">
                                 <div class="col-8">
-                                    <h6 class="text-black">1 * 8-inch cheese and corn pizza, 1 * veg patty burger, 1 * fresh lime soda</h6>
+                                    <h6 class="text-black">1 * golden delight chicken pizza, 1 * chicken chunky burger,
+                                        1* virgin mojito.</h6>
                                 </div>
                                 <div class="col-4 text-right">
-                                    <h6 class="text-black">190</h6>
+                                    <h6 class="text-black">215</h6>
                                 </div>
                             </div>
                             <div class="row mt-4">
                                 <div class="col-8">
-                                    <h6 class="text-black">1 * 8-inch crispy chicken pizza, 1 * chicken patty burger, 1 * fresh lime soda</h6>
+                                    <h6 class="text-black">1* chicken sausage pizza, 1* chicken cheese sandwich, 1* hot
+                                        brownie with ice-cream, 1* choice of mock tail</h6>
                                 </div>
                                 <div class="col-4 text-right">
-                                    <h6 class="text-black">150</h6>
+                                    <h6 class="text-black">350</h6>
                                 </div>
                             </div>
                             <div class="row mt-4">
                                 <div class="col-8">
-                                    <h6 class="text-black">1 * 8-inch chicken sausage pizza, 1 * hot brownie with ice-cream, 1 * fresh lime soda</h6>
+                                    <h6 class="text-black">1* Chicken nuggets, 1* chicken chunky burger, choice of mock
+                                        tail</h6>
                                 </div>
                                 <div class="col-4 text-right">
-                                    <h6 class="text-black">170</h6>
+                                    <h6 class="text-black">199</h6>
+                                </div>
+                            </div>
+                            <div class="row mt-4">
+                                <div class="col-8">
+                                    <h6 class="text-black">1* chicken popcorn, 1* golden delight pizza, 1* masala coke
+                                    </h6>
+                                </div>
+                                <div class="col-4 text-right">
+                                    <h6 class="text-black">259</h6>
+                                </div>
+                            </div>
+                            <div class="row mt-4">
+                                <div class="col-8">
+                                    <h6 class="text-black">1* Chicken nuggets, 1* chicken chunky burger, 1* French
+                                        Fries</h6>
+                                </div>
+                                <div class="col-4 text-right">
+                                    <h6 class="text-black">199</h6>
                                 </div>
                             </div>
                         </div>
@@ -624,7 +647,7 @@
                             <div class="col-6">
                                 <h2 class="text-black">Extra Toppings</h2>
                             </div>
-                            <div class="col-6 text-right number">7/9</div>
+                            <div class="col-6 text-right number">8/8</div>
                         </div>
 
                         <div class="burgers">
@@ -633,7 +656,7 @@
                                     <h6 class="text-black">Cheese</h6>
                                 </div>
                                 <div class="col-6 text-right">
-                                    <h6 class="text-black">30</h6>
+                                    <h6 class="text-black">40</h6>
                                 </div>
                             </div>
                             <div class="row mt-3">
@@ -641,7 +664,7 @@
                                     <h6 class="text-black">Mushroom</h6>
                                 </div>
                                 <div class="col-6 text-right">
-                                    <h6 class="text-black">25</h6>
+                                    <h6 class="text-black">35</h6>
                                 </div>
                             </div>
                             <div class="row mt-3">
@@ -649,7 +672,7 @@
                                     <h6 class="text-black">Bell peppers</h6>
                                 </div>
                                 <div class="col-6 text-right">
-                                    <h6 class="text-black">10</h6>
+                                    <h6 class="text-black">20</h6>
                                 </div>
                             </div>
                             <div class="row mt-3">
@@ -657,7 +680,7 @@
                                     <h6 class="text-black">Baby-corn</h6>
                                 </div>
                                 <div class="col-6 text-right">
-                                    <h6 class="text-black">10</h6>
+                                    <h6 class="text-black">20</h6>
                                 </div>
                             </div>
                             <div class="row mt-3">
@@ -665,7 +688,7 @@
                                     <h6 class="text-black">American corn </h6>
                                 </div>
                                 <div class="col-6 text-right">
-                                    <h6 class="text-black">15</h6>
+                                    <h6 class="text-black">25</h6>
                                 </div>
                             </div>
                             <div class="row mt-3">
@@ -673,7 +696,7 @@
                                     <h6 class="text-black">Chicken</h6>
                                 </div>
                                 <div class="col-6 text-right">
-                                    <h6 class="text-black">30</h6>
+                                    <h6 class="text-black">40</h6>
                                 </div>
                             </div>
                             <div class="row mt-3">
@@ -681,7 +704,7 @@
                                     <h6 class="text-black">Paneer</h6>
                                 </div>
                                 <div class="col-6 text-right">
-                                    <h6 class="text-black">30</h6>
+                                    <h6 class="text-black">40</h6>
                                 </div>
                             </div>
                             <div class="row mt-3">
@@ -689,7 +712,7 @@
                                     <h6 class="text-black">Jalepeno</h6>
                                 </div>
                                 <div class="col-6 text-right">
-                                    <h6 class="text-black">25</h6>
+                                    <h6 class="text-black">35</h6>
                                 </div>
                             </div>
                             <div class="row mt-3">
@@ -697,7 +720,7 @@
                                     <h6 class="text-black">Olives</h6>
                                 </div>
                                 <div class="col-6 text-right">
-                                    <h6 class="text-black">25</h6>
+                                    <h6 class="text-black">35</h6>
                                 </div>
                             </div>
                         </div>
@@ -706,65 +729,6 @@
 
                     <!-- Extra Toppings Ends -->
 
-                    <!-- Offers Starts -->
-
-                    <div class="item">
-                        <div class="row align-items-center mb-4">
-                            <div class="col-6">
-                                <h2 class="text-black">Offers</h2>
-                            </div>
-                            <div class="col-6 text-right number">8/9</div>
-                        </div>
-
-                        <div class="burgers">
-                            <div class="row mt-4">
-                                <div class="col-12">
-                                    <h6 class="text-black">Buy 2 * Chefs special pizza and get 2 * Aam panna mocktail free</h6>
-                                </div>
-                            </div>
-                            <div class="row mt-4">
-                                <div class="col-12">
-                                    <h6 class="text-black">Buy 2 * Special jumbo chicken burger and get 1 * Virgin mojito free</h6>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <!-- Offers Ends -->
-
-                    <!-- Beverages Starts -->
-
-                    <div class="item">
-                        <div class="row align-items-center mb-4">
-                            <div class="col-6">
-                                <h2 class="text-black">Beverages</h2>
-                            </div>
-                            <div class="col-6 text-right number">9/9</div>
-                        </div>
-
-                        <div class="burgers">
-                            <div class="row mt-4">
-                                <div class="col-6">
-                                    <h6 class="text-black">Mineral water (500ml / 1 ltr)</h6>
-                                </div>
-                                <div class="col-6 text-right">
-                                    <h6 class="text-black">10 / 20</h6>
-                                </div>
-                            </div>
-                            <div class="row mt-3">
-                                <div class="col-6">
-                                    <h6 class="text-black">Cold drinks (200ml / 600ml)</h6>
-                                </div>
-                                <div class="col-6 text-right">
-                                    <h6 class="text-black">40 / 70</h6>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-
-                    <!-- Beverages Ends -->
 
                 </div>
             </div>
