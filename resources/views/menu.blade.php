@@ -70,8 +70,6 @@
                     <li><a href="#" class="d-flex align-items-center"> <span>Desert</span></a></li>
                     <li><a href="#" class="d-flex align-items-center"> <span>Combo</span></a></li>
                     <li><a href="#" class="d-flex align-items-center"> <span>Extra Toppings</span></a></li>
-                    <li><a href="#" class="d-flex align-items-center"> <span>Offers</span></a></li>
-                    <li><a href="#" class="d-flex align-items-center"> <span>Beverages</span></a></li>
                 </ul>
             </div>
             <div class="col-lg-8 ml-auto" data-aos="fade-up" data-aos-delay="100">
